@@ -1,0 +1,8 @@
+import os
+
+
+DATABASE_URL = os.getenv(
+    "DATABASE_URL",
+    "postgresql+asyncpg://fitness:fitness123@localhost:5432/fitness_coach",
+)
+SYNC_DATABASE_URL = DATABASE_URL.replace("+asyncpg", "")
