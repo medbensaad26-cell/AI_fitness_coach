@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 
-from app.routers import auth
+from app.routers import auth, sessions
 
 app = FastAPI(title="AI Fitness Coach API")
 
 app.include_router(auth.router, prefix="/api")
+app.include_router(sessions.router, prefix="/api")
 
 
 @app.get("/health")

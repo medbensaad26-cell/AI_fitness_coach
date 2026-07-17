@@ -20,6 +20,7 @@ class User(Base):
     profile: Mapped["UserProfile | None"] = relationship(
         back_populates="user", uselist=False
     )
+    sessions: Mapped[list["Session"]] = relationship(back_populates="user")
 
 
 class UserProfile(Base):
