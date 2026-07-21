@@ -15,7 +15,7 @@ class SessionExerciseCreate(BaseModel):
 
 
 class SessionCreate(BaseModel):
-    user_id: uuid.UUID
+    program_id: uuid.UUID | None = None
     start_time: datetime
     end_time: datetime | None = None
     overall_feeling: int | None = Field(default=None, ge=1, le=5)
@@ -41,6 +41,7 @@ class SessionExerciseResponse(BaseModel):
 class SessionResponse(BaseModel):
     id: uuid.UUID
     user_id: uuid.UUID
+    program_id: uuid.UUID | None
     start_time: datetime
     end_time: datetime | None
     duration_minutes: int | None

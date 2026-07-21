@@ -21,6 +21,7 @@ class User(Base):
         back_populates="user", uselist=False
     )
     sessions: Mapped[list["Session"]] = relationship(back_populates="user")
+    programs: Mapped[list["Program"]] = relationship(back_populates="user")
 
 
 class UserProfile(Base):

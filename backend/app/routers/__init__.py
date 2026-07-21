@@ -1,3 +1,3 @@
-from app.routers import auth, sessions
+from app.routers import auth, programs, sessions, users
 
-__all__ = ["auth", "sessions"]
+__all__ = ["auth", "programs", "sessions", "users"]

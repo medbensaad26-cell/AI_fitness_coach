@@ -1,3 +1,6 @@
+import uuid
+from datetime import date
+
 from pydantic import BaseModel, EmailStr, Field
 
 
@@ -30,3 +33,20 @@ class UserResponse(BaseModel):
     limitations: str
 
     model_config = {"from_attributes": True}
+
+
+class UserProfileResponse(BaseModel):
+    id: uuid.UUID
+    email: EmailStr
+    name: str | None
+    age: int | None
+    sex: str | None
+    height_cm: float | None
+    weight_kg: float | None
+    fitness_level: str | None
+    primary_goal: str | None
+    training_frequency: str | None
+    available_equipment: str | None
+    limitations: str | None
+    created_at: date | None
+    updated_at: date | None

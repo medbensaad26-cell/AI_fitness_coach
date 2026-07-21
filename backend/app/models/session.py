@@ -17,6 +17,9 @@ class Session(Base):
     user_id: Mapped[uuid.UUID] = mapped_column(
         UUID(as_uuid=True), ForeignKey("users.id"), nullable=False, index=True
     )
+    program_id: Mapped[uuid.UUID | None] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("programs.id"), nullable=True, index=True
+    )
     start_time: Mapped[datetime] = mapped_column(DateTime, nullable=False)
     end_time: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
     duration_minutes: Mapped[int | None] = mapped_column(Integer, nullable=True)
@@ -28,6 +31,7 @@ class Session(Base):
     )
 
     user: Mapped["User"] = relationship(back_populates="sessions")
+    program: Mapped["Program | None"] = relationship(back_populates="sessions")
     exercises: Mapped[list["SessionExercise"]] = relationship(
         back_populates="session", cascade="all, delete-orphan"
     )

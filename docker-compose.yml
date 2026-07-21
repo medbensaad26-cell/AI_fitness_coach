@@ -24,6 +24,7 @@ services:
     environment:
       PYTHONUNBUFFERED: "1"
       DATABASE_URL: postgresql+asyncpg://fitness:fitness123@db:5432/fitness_coach
+      SECRET_KEY: dev-secret-change-in-production
     depends_on:
       db:
         condition: service_healthy
