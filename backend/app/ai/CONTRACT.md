@@ -1,5 +1,7 @@
 # Person A → Person B AI service contract
 
+> Full technical documentation: [`docs/AI_COACHING_LAYER.md`](../../../docs/AI_COACHING_LAYER.md)
+
 Call these Python functions from FastAPI routers. Do **not** put HTTP routes inside `app/ai/`.
 
 ## Setup (Docker)
