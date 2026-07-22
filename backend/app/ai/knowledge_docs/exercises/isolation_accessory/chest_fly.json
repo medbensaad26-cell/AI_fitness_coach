@@ -1,0 +1,32 @@
+{
+  "id": "chest_fly",
+  "name": "Chest Fly",
+  "aliases": ["dumbbell fly", "pec deck fly"],
+  "pattern": "isolation",
+  "type": "strength",
+  "mechanics": "isolation",
+  "force": "push",
+  "primary_muscles": ["pectoralis_major"],
+  "secondary_muscles": ["deltoids_anterior"],
+  "equipment": ["dumbbell", "pec_deck_machine", "cable"],
+  "difficulty": "beginner",
+  "instructions": "Lie on a flat bench holding a dumbbell in each hand, arms extended above your chest with a slight bend in the elbows (like hugging a tree). Keeping the elbows slightly bent and locked in that angle, lower the dumbbells out to the sides in a wide arc until you feel a deep stretch in your chest. Do not go below shoulder level. Using your chest muscles, bring the dumbbells back together in the same arc, squeezing at the top.",
+  "form_cues": [
+    "Maintain a constant elbow angle throughout",
+    "Don’t let the dumbbells drift too low—stop at chest level",
+    "Keep your shoulders pinned back on the bench",
+    "Imagine hugging a large barrel"
+  ],
+  "contraindications": ["shoulder_impingement", "rotator_cuff_injury", "acute_pec_tear"],
+  "regressions": ["pec_deck_machine", "cable_fly", "floor_fly"],
+  "progressions": ["incline_dumbbell_fly", "cable_crossover"],
+  "safety_notes": "Never use heavy weight on flies—the leverage puts enormous stress on the shoulder joint. Do not bounce at the bottom. If you feel shoulder pain, reduce the range of motion (don’t go as deep) or switch to a machine fly which is more stable.",
+  "common_mistakes": [
+    "Bending and straightening the elbows (turning it into a press)",
+    "Overstretching and dropping weights below shoulder level",
+    "Lifting too heavy and losing control",
+    "Arching the back excessively"
+  ],
+  "source": "Bodybuilding and physiotherapy principles",
+  "scientific_confidence": "high"
+}

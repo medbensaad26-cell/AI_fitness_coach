@@ -1,0 +1,27 @@
+{
+  "id": "bodyweight_squat",
+  "name": "Bodyweight Squat",
+  "aliases": ["air squat", "body squat", "no-weight squat"],
+  "pattern": "squat",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["hamstrings", "core", "adductors"],
+  "equipment": ["bodyweight"],
+  "difficulty": "beginner",
+  "instructions": "Stand with feet shoulder-width apart, toes slightly out. Extend arms forward for balance. Brace your core and push your hips back as if sitting into a chair. Lower until your thighs are at least parallel to the floor, keeping your chest up and back straight. Drive through your heels to return to standing.",
+  "form_cues": [
+    "Chest up, back flat",
+    "Knees track over toes",
+    "Weight in heels",
+    "Don't let knees cave inward"
+  ],
+  "contraindications": ["acute_knee_injury"],
+  "regressions": ["assisted_squat", "box_squat"],
+  "progressions": ["goblet_squat", "jump_squat"],
+  "safety_notes": "If you feel knee pain, limit your depth. Use a chair or box as a target to control depth. Keep your feet flat throughout the movement.",
+  "common_mistakes": ["Heels rising off the floor", "Rounding the lower back", "Knees collapsing inward", "Leaning too far forward"],
+  "source": "General fitness guidelines, ACSM",
+  "scientific_confidence": "high"
+}

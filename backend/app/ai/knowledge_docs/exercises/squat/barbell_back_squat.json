@@ -1,0 +1,32 @@
+{
+  "id": "barbell_back_squat",
+  "name": "Barbell Back Squat",
+  "aliases": ["back squat", "barbell squat"],
+  "pattern": "squat",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["hamstrings", "core", "adductors", "erector_spinae"],
+  "equipment": ["barbell", "squat_rack"],
+  "difficulty": "intermediate",
+  "instructions": "Set the barbell on a squat rack at upper-chest height. Step under the bar, place it on your upper traps (high bar) or rear delts (low bar), and grip the bar wider than shoulder-width. Unrack the bar and step back. Stand with feet shoulder-width apart, toes slightly out. Keeping your chest up and core braced, squat down by bending at the knees and hips simultaneously. Go as low as you can while maintaining a neutral spine—ideally thighs parallel or lower. Drive through your midfoot to stand up.",
+  "form_cues": [
+    "Keep the bar path vertical over midfoot",
+    "Chest up, don’t let your upper back round",
+    "Knees track in line with the second toe",
+    "Brace your core as if about to be punched"
+  ],
+  "contraindications": ["acute_lower_back_injury", "severe_knee_pain", "osteoporosis"],
+  "regressions": ["goblet_squat", "bodyweight_squat"],
+  "progressions": ["barbell_front_squat", "pause_back_squat"],
+  "safety_notes": "Always use a squat rack with safety pins set at appropriate height. If you cannot maintain a neutral spine, reduce weight and depth. Do not bounce at the bottom; control the movement. Cease immediately if you feel sharp back or knee pain.",
+  "common_mistakes": [
+    "Knees caving inward (valgus)",
+    "Heels rising off the floor",
+    "Rounding the lower back (buttwink)",
+    "Looking up excessively (hyperextending neck)"
+  ],
+  "source": "Adapted from ExRx.net and NSCA guidelines",
+  "scientific_confidence": "high"
+}

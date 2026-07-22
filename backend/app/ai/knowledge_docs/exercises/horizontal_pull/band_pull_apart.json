@@ -1,0 +1,27 @@
+{
+  "id": "band_pull_apart",
+  "name": "Band Pull-Apart",
+  "aliases": ["resistance band pull-apart", "band rear delt fly"],
+  "pattern": "horizontal_pull",
+  "type": "strength",
+  "mechanics": "isolation",
+  "force": "pull",
+  "primary_muscles": ["deltoids_posterior", "rhomboids"],
+  "secondary_muscles": ["trapezius_middle", "rotator_cuff"],
+  "equipment": ["resistance_band"],
+  "difficulty": "beginner",
+  "instructions": "Hold a resistance band with both hands, arms extended straight in front of you at shoulder height, hands about shoulder‑width apart. Keeping your arms straight, pull the band apart by moving your hands outward and back, squeezing your shoulder blades together. Your arms should end up out to your sides like a T. Return to the start position with control.",
+  "form_cues": [
+    "Keep your shoulders down, don't shrug",
+    "Squeeze between your shoulder blades",
+    "Control the band on the way back",
+    "Don't bend your elbows"
+  ],
+  "contraindications": ["none_known"],
+  "regressions": ["lighter_band", "wall_angels"],
+  "progressions": ["heavier_band", "band_pull_apart_with_hold"],
+  "safety_notes": "Check band for damage before use. If you feel sharp shoulder pain, stop and check your form. This is a low‑risk exercise suitable for warm‑ups and shoulder rehab.",
+  "common_mistakes": ["Shrugging shoulders", "Bending elbows", "Using a band that's too heavy", "Rushing the movement"],
+  "source": "Physiotherapy and shoulder prehab protocols",
+  "scientific_confidence": "high"
+}

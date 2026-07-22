@@ -1,0 +1,27 @@
+{
+  "id": "sumo_squat",
+  "name": "Sumo Squat",
+  "aliases": ["wide stance squat", "plié squat"],
+  "pattern": "squat",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus", "adductors"],
+  "secondary_muscles": ["hamstrings", "core"],
+  "equipment": ["dumbbell", "kettlebell", "bodyweight"],
+  "difficulty": "beginner",
+  "instructions": "Stand with feet wider than shoulder-width, toes pointed outward at about 45°. Hold a dumbbell or kettlebell with both hands in front of you (or use bodyweight). Keeping your chest up and back straight, bend your knees and lower your hips until your thighs are parallel to the floor. Drive through your heels to stand.",
+  "form_cues": [
+    "Knees should track in the same direction as your toes",
+    "Keep your torso upright",
+    "Don't let your knees cave in",
+    "Squeeze your glutes at the top"
+  ],
+  "contraindications": ["hip_impingement", "severe_knee_pain"],
+  "regressions": ["bodyweight_squat", "box_squat"],
+  "progressions": ["sumo_deadlift", "goblet_squat"],
+  "safety_notes": "If you feel discomfort in the hips, narrow your stance slightly. Do not bounce at the bottom. Cease if you experience sharp groin pain.",
+  "common_mistakes": ["Letting the knees collapse inward", "Rounding the lower back", "Lifting heels off the floor", "Leaning forward excessively"],
+  "source": "Adapted from ACE and NSCA guidelines",
+  "scientific_confidence": "high"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "lat_pulldown",
+  "name": "Lat Pulldown",
+  "aliases": ["cable pulldown", "wide grip pulldown"],
+  "pattern": "vertical_pull",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["latissimus_dorsi", "biceps_brachii"],
+  "secondary_muscles": ["rhomboids", "trapezius_lower", "core"],
+  "equipment": ["cable", "lat_pulldown_bar"],
+  "difficulty": "beginner",
+  "instructions": "Sit at a lat pulldown station with your thighs secured under the pads. Grab the bar with a wide overhand grip (or use a V‑bar for neutral grip). Keep your chest up and shoulders down. Pull the bar to your upper chest, driving your elbows down and back. Squeeze your shoulder blades at the bottom. Return the bar to the start under control, allowing a full stretch at the top without letting your shoulders shrug up.",
+  "form_cues": [
+    "Don't lean back excessively—a slight backward lean (10–20°) is ok",
+    "Pull the bar to your collarbone/upper chest, not behind your neck",
+    "Keep your shoulders away from your ears",
+    "Control the release; don't let the weight stack slam"
+  ],
+  "contraindications": ["shoulder_impingement", "rotator_cuff_injury", "cervical_spine_issues"],
+  "regressions": ["banded_lat_pulldown", "straight_arm_pulldown"],
+  "progressions": ["weighted_pull_up", "single_arm_lat_pulldown"],
+  "safety_notes": "Never pull the bar behind your neck—this places the shoulders in extreme external rotation and can cause impingement. Adjust the thigh pad so your legs are snug and you don't rise off the seat. Use a controlled tempo, not momentum.",
+  "common_mistakes": [
+    "Pulling the bar behind the neck",
+    "Using too much body swing",
+    "Not fully extending the arms at the top",
+    "Leaning back too far (turning it into a row)"
+  ],
+  "source": "Adapted from ExRx.net and NSCA guidelines",
+  "scientific_confidence": "high"
+}

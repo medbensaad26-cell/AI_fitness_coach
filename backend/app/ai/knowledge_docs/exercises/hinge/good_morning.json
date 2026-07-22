@@ -1,0 +1,27 @@
+{
+  "id": "good_morning",
+  "name": "Good Morning",
+  "aliases": ["barbell good morning", "weighted hip hinge"],
+  "pattern": "hinge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["hamstrings", "erector_spinae"],
+  "secondary_muscles": ["gluteus_maximus", "core"],
+  "equipment": ["barbell", "bodyweight"],
+  "difficulty": "intermediate",
+  "instructions": "Place a barbell on your upper traps (like a back squat). Stand with feet hip‑width apart, knees slightly bent. Keeping your back neutral and chest up, hinge at the hips and push your butt back, allowing your torso to descend until it is nearly parallel to the floor (or until you feel a strong hamstring stretch). Do not let your lower back round. Return to the upright position by driving your hips forward.",
+  "form_cues": [
+    "Keep your back flat at all times",
+    "Only go as low as you can maintain a neutral spine",
+    "Knees stay slightly bent, not straight",
+    "Push your hips back, not just bend over"
+  ],
+  "contraindications": ["acute_lower_back_injury", "disc_herniation", "severe_hamstring_strain"],
+  "regressions": ["hip_hinge_with_dowel", "romanian_deadlift"],
+  "progressions": ["seated_good_morning", "banded_good_morning"],
+  "safety_notes": "Use a very light weight or just the bar to start. This exercise puts significant stress on the lower back. If you feel any sharp pain, stop immediately. It is not suitable for those with existing lumbar spine issues.",
+  "common_mistakes": ["Rounding the lower back", "Using too much weight", "Bending the knees too much", "Not pushing hips back far enough"],
+  "source": "Powerlifting and strength training manuals",
+  "scientific_confidence": "high"
+}

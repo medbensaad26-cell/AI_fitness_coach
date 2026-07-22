@@ -1,0 +1,27 @@
+{
+  "id": "barbell_front_squat",
+  "name": "Barbell Front Squat",
+  "aliases": ["front squat", "barbell front squat"],
+  "pattern": "squat",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["core", "hamstrings", "erector_spinae"],
+  "equipment": ["barbell"],
+  "difficulty": "intermediate",
+  "instructions": "Set the barbell on a rack at shoulder height. Grip the bar with hands slightly wider than shoulder-width and rest the bar on your front deltoids, crossing your arms or using a clean grip (elbows high). Unrack the bar and step back. Keep your chest up and elbows high. Squat down by bending your knees and hips while maintaining an upright torso. Go as low as you can without rounding your back, then drive through your heels to stand.",
+  "form_cues": [
+    "Elbows high, chest up",
+    "Keep the bar on your shoulders, not your hands",
+    "Push knees outward",
+    "Maintain an upright torso"
+  ],
+  "contraindications": ["wrist_pain", "shoulder_impingement", "acute_lower_back_injury"],
+  "regressions": ["goblet_squat", "bodyweight_squat"],
+  "progressions": ["overhead_squat", "pause_front_squat"],
+  "safety_notes": "The front rack position requires wrist and shoulder mobility. If you cannot keep your elbows high, use straps or a cross‑arm grip. Always use safety pins in a power rack. Stop if you feel sharp wrist or shoulder pain.",
+  "common_mistakes": ["Elbows dropping", "Torso collapsing forward", "Heels lifting", "Not reaching parallel depth"],
+  "source": "Starting Strength and Olympic weightlifting manuals",
+  "scientific_confidence": "high"
+}

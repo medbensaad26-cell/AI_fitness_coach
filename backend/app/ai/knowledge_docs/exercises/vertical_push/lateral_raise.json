@@ -1,0 +1,32 @@
+{
+  "id": "lateral_raise",
+  "name": "Lateral Raise",
+  "aliases": ["dumbbell lateral raise", "side raise"],
+  "pattern": "vertical_push",
+  "type": "strength",
+  "mechanics": "isolation",
+  "force": "push",
+  "primary_muscles": ["deltoids_lateral"],
+  "secondary_muscles": ["deltoids_anterior", "trapezius_upper"],
+  "equipment": ["dumbbell"],
+  "difficulty": "beginner",
+  "instructions": "Stand with feet hip-width apart, holding a dumbbell in each hand at your sides, palms facing your body. Keeping a slight bend in your elbows, raise the dumbbells out to the sides until your arms are parallel to the floor. Your hands should be at shoulder height, no higher. Pause briefly at the top, then lower the dumbbells back to the start under control.",
+  "form_cues": [
+    "Lead with your elbows, not your hands",
+    "Keep a slight forward lean (10–15°) to engage the side delts",
+    "Don't shrug—keep your shoulders down",
+    "Control the negative; don't just drop your arms"
+  ],
+  "contraindications": ["shoulder_impingement", "rotator_cuff_tear"],
+  "regressions": ["banded_lateral_raise", "cable_lateral_raise"],
+  "progressions": ["leaning_lateral_raise", "single_arm_cable_raise"],
+  "safety_notes": "Use light weight. The lateral deltoid is small and easily overwhelmed. If you feel pain in the shoulder joint, stop and check your form. Never swing your body to lift the weight—strict form only.",
+  "common_mistakes": [
+    "Shrugging the shoulders (using traps instead of delts)",
+    "Swinging the dumbbells with momentum",
+    "Raising the dumbbells too high (above shoulder)",
+    "Bending the elbows too much (turning it into a front raise)"
+  ],
+  "source": "Bodybuilding and physiotherapy consensus",
+  "scientific_confidence": "high"
+}

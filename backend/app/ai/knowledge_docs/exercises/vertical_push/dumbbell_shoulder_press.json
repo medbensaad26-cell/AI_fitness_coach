@@ -1,0 +1,32 @@
+{
+  "id": "dumbbell_shoulder_press",
+  "name": "Dumbbell Shoulder Press",
+  "aliases": ["dumbbell overhead press", "seated dumbbell press"],
+  "pattern": "vertical_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["deltoids_anterior", "deltoids_lateral", "triceps_brachii"],
+  "secondary_muscles": ["trapezius_upper", "core", "serratus_anterior"],
+  "equipment": ["dumbbell", "bench"],
+  "difficulty": "intermediate",
+  "instructions": "Sit on a bench with back support set to 75–80 degrees (almost upright). Hold a dumbbell in each hand at shoulder height, palms facing forward or slightly inward. Press the dumbbells straight overhead until your arms are fully extended but not locked out violently. Lower them back to shoulder height under control.",
+  "form_cues": [
+    "Keep your back against the pad",
+    "Don't let the dumbbells drift forward",
+    "Maintain a neutral wrist position",
+    "Exhale as you press up"
+  ],
+  "contraindications": ["shoulder_impingement", "rotator_cuff_injury", "cervical_spine_issues"],
+  "regressions": ["seated_arnold_press", "landmine_press"],
+  "progressions": ["standing_dumbbell_press", "barbell_overhead_press"],
+  "safety_notes": "Use a bench with back support to protect your lower back. If you have shoulder discomfort, try a neutral-grip (palms facing each other). Don't bang the dumbbells together at the top—control the weight.",
+  "common_mistakes": [
+    "Pressing with elbows flared too wide",
+    "Arching the back off the bench",
+    "Lowering the dumbbells too far (excessive stretch)",
+    "Using momentum"
+  ],
+  "source": "General fitness knowledge, ACE guidelines",
+  "scientific_confidence": "high"
+}

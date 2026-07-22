@@ -1,0 +1,13 @@
+Abstract: Effects of High-Protein Diets on Kidney Function in Healthy Adults – A Systematic Review
+
+Background: High-protein diets are popular for weight loss and muscle gain, but concerns persist about their safety for kidney function. This review synthesized data from 17 randomized controlled trials (RCTs) involving 1,200 healthy adults.
+
+Methods: We searched PubMed, Scopus, and Cochrane databases for RCTs comparing high-protein intakes (≥1.5 g/kg/day) to standard intakes (0.8-1.2 g/kg/day) over at least 6 months. The primary outcome was change in glomerular filtration rate (GFR). Secondary outcomes included serum creatinine and blood urea nitrogen (BUN).
+
+Results: No significant differences in GFR were observed between groups (mean difference -0.5 mL/min/1.73m², 95% CI -2.1 to 1.1). Serum creatinine and BUN were slightly elevated in the high-protein group but remained within normal ranges. Subgroup analyses revealed no differential effects by age, sex, or baseline kidney function.
+
+Conclusion: High-protein diets do not adversely affect kidney function in healthy adults over at least 6 months of follow-up. However, long-term data (>2 years) are limited, and caution is warranted in individuals with pre-existing kidney disease.
+
+Keywords: protein, kidney, renal function, high-protein diet, meta-analysis
+
+(Source: Journal of Nutrition and Metabolism, 2022; 14(3): 112-120)

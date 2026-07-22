@@ -1,0 +1,31 @@
+{
+  "id": "bulgarian_split_squat",
+  "name": "Bulgarian Split Squat",
+  "aliases": ["rear foot elevated split squat"],
+  "pattern": "squat",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["hamstrings", "core", "adductors"],
+  "equipment": ["dumbbell", "bench"],
+  "difficulty": "intermediate",
+  "instructions": "Stand facing away from a bench or box, holding a dumbbell in each hand (or just bodyweight). Place the top of one foot on the bench behind you. Your front foot should be far enough forward that when you squat down, your front knee stays above your ankle. Keeping your torso upright, lower your hips until your front thigh is parallel to the ground or slightly below. Drive through your front heel to return to the start.",
+  "form_cues": [
+    "Keep your front shin vertical",
+    "Don’t let the front knee cave inward",
+    "Maintain an upright torso",
+    "Focus on driving through the front heel"
+  ],
+  "contraindications": ["knee_pain", "balance_disorders", "acute_lower_back_injury"],
+  "regressions": ["bodyweight_split_squat", "step_ups"],
+  "progressions": ["barbell_bulgarian_split_squat", "deficit_split_squat"],
+  "safety_notes": "Use a lighter weight than you think; this exercise is very demanding on the front leg. If you have difficulty balancing, hold a light dumbbell in the goblet position and use a wall for light support. Stop if you feel sharp knee pain.",
+  "common_mistakes": [
+    "Placing the front foot too close to the bench (excessive knee travel)",
+    "Leaning forward excessively",
+    "Using too much weight and losing balance"
+  ],
+  "source": "Adapted from ExRx.net and strength coaching literature",
+  "scientific_confidence": "high"
+}

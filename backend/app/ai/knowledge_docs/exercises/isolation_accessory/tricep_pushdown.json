@@ -1,0 +1,32 @@
+{
+  "id": "tricep_pushdown",
+  "name": "Tricep Pushdown",
+  "aliases": ["cable tricep pushdown", "rope pushdown"],
+  "pattern": "isolation",
+  "type": "strength",
+  "mechanics": "isolation",
+  "force": "push",
+  "primary_muscles": ["triceps_brachii"],
+  "secondary_muscles": ["core"],
+  "equipment": ["cable", "rope_attachment"],
+  "difficulty": "beginner",
+  "instructions": "Attach a straight bar or rope to a high pulley on a cable machine. Stand facing the machine with feet shoulder‑width apart. Grasp the bar/rope with an overhand grip, elbows bent at 90° and tucked tightly against your ribs. Push the handle down until your arms are fully extended, focusing on squeezing your triceps. Pause briefly, then return to the starting position under control, keeping your elbows stationary.",
+  "form_cues": [
+    "Elbows stay pinned to your sides—don’t let them flare out",
+    "Only your forearms should move; upper arms remain vertical",
+    "Don’t lean into the weight; stand upright",
+    "Squeeze hard at the bottom"
+  ],
+  "contraindications": ["elbow_tendinitis", "wrist_pain"],
+  "regressions": ["banded_pushdown", "light_dumbbell_skull_crusher"],
+  "progressions": ["overhead_tricep_extension", "dips", "close_grip_bench_press"],
+  "safety_notes": "Start with light weight to master elbow positioning. If you feel elbow discomfort, try using a rope attachment (neutral grip) instead of a straight bar. Do not lock your elbows aggressively—stop just short of full lockout if hypermobile.",
+  "common_mistakes": [
+    "Flaring elbows outward",
+    "Swinging the body to move weight",
+    "Using too much weight and rounding the back",
+    "Not fully extending the arms"
+  ],
+  "source": "Standard gym and bodybuilding practice",
+  "scientific_confidence": "high"
+}

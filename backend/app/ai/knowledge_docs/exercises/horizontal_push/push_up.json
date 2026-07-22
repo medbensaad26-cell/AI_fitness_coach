@@ -1,0 +1,31 @@
+{
+  "id": "push_up",
+  "name": "Push-Up",
+  "aliases": ["press-up", "bodyweight push-up"],
+  "pattern": "horizontal_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["pectoralis_major", "triceps_brachii"],
+  "secondary_muscles": ["deltoids_anterior", "core"],
+  "equipment": ["bodyweight"],
+  "difficulty": "beginner",
+  "instructions": "Start in a high plank position with hands slightly wider than shoulder-width, arms straight. Your body should form a straight line from heels to head. Lower your chest towards the floor by bending your elbows, keeping them at about a 45-degree angle from your torso. Go as low as your chest nearly touches the ground, then push back up explosively until your arms are fully extended.",
+  "form_cues": [
+    "Squeeze your glutes and brace your abs",
+    "Don't let your hips sag or pike up",
+    "Keep your neck neutral, eyes on the floor slightly ahead"
+  ],
+  "contraindications": ["wrist_pain", "shoulder_impingement"],
+  "regressions": ["knee_push_up", "incline_push_up"],
+  "progressions": ["decline_push_up", "diamond_push_up", "clapping_push_up"],
+  "safety_notes": "If you experience wrist discomfort, use push-up handles or do them on your fists. Shoulder pain may indicate excessive elbow flare; keep elbows tucked to 45 degrees. Stop if you feel sharp pain in the shoulder joint.",
+  "common_mistakes": [
+    "Flaring elbows too wide",
+    "Sagging hips",
+    "Not going deep enough",
+    "Looking forward (hyperextending neck)"
+  ],
+  "source": "General fitness knowledge, ACE guidelines",
+  "scientific_confidence": "high"
+}

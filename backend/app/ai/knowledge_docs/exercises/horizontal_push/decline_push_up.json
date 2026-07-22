@@ -1,0 +1,27 @@
+{
+  "id": "decline_push_up",
+  "name": "Decline Push-Up",
+  "aliases": ["feet elevated push-up", "incline push-up (feet high)"],
+  "pattern": "horizontal_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["pectoralis_major_lower", "triceps_brachii"],
+  "secondary_muscles": ["deltoids_anterior", "core"],
+  "equipment": ["bodyweight", "bench", "box"],
+  "difficulty": "intermediate",
+  "instructions": "Place your feet on a bench, chair, or box. Assume a push‑up position with hands slightly wider than shoulder‑width. Your body should form a straight line from heels to head. Lower your chest toward the floor by bending your elbows until your chest nearly touches the ground. Press back up to the starting position.",
+  "form_cues": [
+    "Keep your body rigid — no sagging",
+    "Elbows at about 45° from torso",
+    "Look at the floor slightly ahead of you",
+    "Squeeze glutes and brace core"
+  ],
+  "contraindications": ["wrist_pain", "shoulder_impingement"],
+  "regressions": ["standard_push_up", "incline_push_up"],
+  "progressions": ["weighted_decline_push_up", "plyometric_decline_push_up"],
+  "safety_notes": "If you feel wrist discomfort, use push‑up handles or fists. For shoulder safety, avoid flaring elbows. If lower back sags, drop to your knees or elevate hands higher than feet.",
+  "common_mistakes": ["Hips sagging", "Elbows flaring too wide", "Not going deep enough", "Looking forward (neck strain)"],
+  "source": "Calisthenics training guides",
+  "scientific_confidence": "high"
+}

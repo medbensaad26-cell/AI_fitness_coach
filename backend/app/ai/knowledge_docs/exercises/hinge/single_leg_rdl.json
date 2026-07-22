@@ -1,0 +1,27 @@
+{
+  "id": "single_leg_rdl",
+  "name": "Single-Leg Romanian Deadlift",
+  "aliases": ["single leg RDL", "one-leg dumbbell deadlift"],
+  "pattern": "hinge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["hamstrings", "gluteus_maximus"],
+  "secondary_muscles": ["erector_spinae", "core", "calves"],
+  "equipment": ["dumbbell", "bodyweight"],
+  "difficulty": "intermediate",
+  "instructions": "Stand on one leg, holding a dumbbell in the opposite hand (or both hands for more load). Keep a slight bend in the standing knee. Hinge at the hips, extending your free leg straight behind you for balance, and lower the dumbbell toward the floor. Keep your back neutral. Go as low as you can without rounding your back, then drive through the standing heel to return to upright.",
+  "form_cues": [
+    "Hips stay square to the floor",
+    "Free leg extends straight back, not up",
+    "Dumbbell stays close to the standing leg",
+    "Don't rotate your pelvis"
+  ],
+  "contraindications": ["acute_lower_back_injury", "balance_disorders", "severe_hamstring_strain"],
+  "regressions": ["romanian_deadlift", "hip_hinge_with_dowel"],
+  "progressions": ["barbell_single_leg_rdl", "deficit_single_leg_rdl"],
+  "safety_notes": "Start with bodyweight to master balance. Use a wall or pole for light support if needed. Keep the movement slow and controlled. Stop if you feel sharp pain in the lower back or hamstring.",
+  "common_mistakes": ["Rounding the lower back", "Rotating the hips", "Bending the standing knee too much", "Using too heavy a weight"],
+  "source": "Physiotherapy and athletic training literature",
+  "scientific_confidence": "high"
+}

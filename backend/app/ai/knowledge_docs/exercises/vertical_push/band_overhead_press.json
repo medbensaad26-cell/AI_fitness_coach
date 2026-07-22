@@ -1,0 +1,27 @@
+{
+  "id": "band_overhead_press",
+  "name": "Band Overhead Press",
+  "aliases": ["resistance band shoulder press", "band OHP"],
+  "pattern": "vertical_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["deltoids_anterior", "deltoids_lateral", "triceps_brachii"],
+  "secondary_muscles": ["trapezius_upper", "core"],
+  "equipment": ["resistance_band"],
+  "difficulty": "beginner",
+  "instructions": "Stand on the center of a resistance band with feet shoulder‑width apart. Grasp the ends of the band and bring your hands to shoulder height, palms forward. Press the band directly overhead until your arms are fully extended. Lower back to shoulder height with control.",
+  "form_cues": [
+    "Keep your core tight — don't arch your back",
+    "Press straight up, not forward",
+    "Keep your wrists neutral",
+    "Control the band on the way down"
+  ],
+  "contraindications": ["shoulder_impingement"],
+  "regressions": ["lighter_band", "seated_band_press"],
+  "progressions": ["heavier_band", "one_arm_band_press"],
+  "safety_notes": "Ensure the band is not overstretched. Check for damage before use. This exercise provides variable resistance — it's easier at the bottom and harder at the top, which can be joint‑friendly.",
+  "common_mistakes": ["Arching the lower back", "Pressing forward instead of up", "Shrugging shoulders", "Not controlling the descent"],
+  "source": "Resistance band training literature",
+  "scientific_confidence": "high"
+}

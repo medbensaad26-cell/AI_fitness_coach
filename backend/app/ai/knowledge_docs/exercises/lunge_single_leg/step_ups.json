@@ -1,0 +1,32 @@
+{
+  "id": "step_ups",
+  "name": "Step‑Ups",
+  "aliases": ["dumbbell step-ups", "box step-ups"],
+  "pattern": "lunge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["hamstrings", "core"],
+  "equipment": ["bodyweight", "dumbbell", "box"],
+  "difficulty": "beginner",
+  "instructions": "Stand in front of a sturdy box or bench (knee height). Hold dumbbells at your sides if desired. Place one foot fully on the box. Drive through that heel to lift your body up onto the box, bringing the trailing foot to meet the leading foot on top. Avoid pushing off the back foot. Step down with control, one foot at a time, and repeat, alternating lead legs.",
+  "form_cues": [
+    "Drive through your heel, not your toes",
+    "Keep your knee tracking over your second toe",
+    "Stand tall at the top—full hip and knee extension",
+    "Control the descent; don’t just drop off the box"
+  ],
+  "contraindications": ["knee_pain", "balance_disorders"],
+  "regressions": ["lateral_step_ups", "bodyweight_box_squat"],
+  "progressions": ["weighted_step_ups", "high_box_step_ups"],
+  "safety_notes": "Use a stable, non‑slippery box. Start low (mid‑shin height) if you're new. Don't push off the back leg—that negates the unilateral benefit. If you feel knee pain, reduce the box height or switch to lateral step‑ups.",
+  "common_mistakes": [
+    "Pushing off the back foot (cheating)",
+    "Letting the knee cave inward",
+    "Leaning the torso too far forward",
+    "Not achieving full hip extension at the top"
+  ],
+  "source": "General strength and conditioning practices",
+  "scientific_confidence": "high"
+}

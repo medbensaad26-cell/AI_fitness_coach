@@ -1,0 +1,27 @@
+{
+  "id": "reverse_lunge",
+  "name": "Reverse Lunge",
+  "aliases": ["backward lunge", "step-back lunge"],
+  "pattern": "lunge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["hamstrings", "core"],
+  "equipment": ["bodyweight", "dumbbell"],
+  "difficulty": "beginner",
+  "instructions": "Stand with feet together. Step backward with one leg, landing on the ball of the foot and lowering the back knee toward the floor. Both knees should bend at about 90°. Keep your torso upright. Push through the front heel to return to standing. Alternate legs.",
+  "form_cues": [
+    "Front knee stays over ankle, not past toes",
+    "Torso remains upright",
+    "Back knee nearly touches the floor",
+    "Push through front heel, not your toes"
+  ],
+  "contraindications": ["severe_knee_pain", "balance_disorders"],
+  "regressions": ["stationary_lunge", "assisted_reverse_lunge"],
+  "progressions": ["walking_lunge", "reverse_lunge_with_deficit"],
+  "safety_notes": "Reverse lunges are often more knee‑friendly than forward lunges because the front knee is more stable. If you feel knee discomfort, reduce depth. Use a wall or pole for balance if needed.",
+  "common_mistakes": ["Front knee collapsing inward", "Leaning the torso too far forward", "Not stepping back far enough", "Back knee crashing to the floor"],
+  "source": "General fitness and rehabilitation resources",
+  "scientific_confidence": "high"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dumbbell_bench_press",
+  "name": "Dumbbell Bench Press",
+  "aliases": ["dumbbell chest press", "flat dumbbell press"],
+  "pattern": "horizontal_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["pectoralis_major", "triceps_brachii"],
+  "secondary_muscles": ["deltoids_anterior"],
+  "equipment": ["dumbbell", "bench"],
+  "difficulty": "intermediate",
+  "instructions": "Lie on a flat bench holding a dumbbell in each hand at chest level. Press the dumbbells up until your arms are fully extended above your chest. Lower the dumbbells slowly until your elbows are at about 90 degrees, feeling a stretch in your chest. Press back up, squeezing your chest at the top. Keep your shoulders pinned to the bench throughout.",
+  "form_cues": [
+    "Keep your wrists straight and aligned with your elbows",
+    "Maintain a natural arch in your lower back",
+    "Lower the dumbbells to chest level, not higher",
+    "Don't let the dumbbells drift outward or inward unevenly"
+  ],
+  "contraindications": ["shoulder_impingement", "acute_pec_tear", "rotator_cuff_injury"],
+  "regressions": ["dumbbell_floor_press", "push_up"],
+  "progressions": ["incline_dumbbell_press", "alternating_dumbbell_press"],
+  "safety_notes": "Use a spotter for heavier sets. Don't drop the dumbbells to the floor; rest them on your thighs and sit up carefully. If you feel shoulder pain, reduce the depth or switch to a neutral-grip (palms facing each other).",
+  "common_mistakes": [
+    "Overarching the lower back",
+    "Flaring elbows too wide",
+    "Using momentum to lift",
+    "Not controlling the descent"
+  ],
+  "source": "ExRx.net and NSCA recommendations",
+  "scientific_confidence": "high"
+}

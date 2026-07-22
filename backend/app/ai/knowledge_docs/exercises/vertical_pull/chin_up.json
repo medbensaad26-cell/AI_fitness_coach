@@ -1,0 +1,27 @@
+{
+  "id": "chin_up",
+  "name": "Chin-Up",
+  "aliases": ["chinning", "supinated pull-up"],
+  "pattern": "vertical_pull",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["latissimus_dorsi", "biceps_brachii"],
+  "secondary_muscles": ["rhomboids", "trapezius_lower", "core"],
+  "equipment": ["pull_up_bar"],
+  "difficulty": "intermediate",
+  "instructions": "Grab a pull‑up bar with an underhand (supinated) grip, hands shoulder‑width apart. Hang with arms fully extended. Pull yourself up by driving your elbows down and back, aiming to bring your chin above the bar. Squeeze your back and biceps at the top. Lower yourself under control to the dead hang position.",
+  "form_cues": [
+    "Start from a dead hang",
+    "Drive your elbows down",
+    "Keep your chest lifted",
+    "Don't swing — control the movement"
+  ],
+  "contraindications": ["elbow_tendinitis", "shoulder_impingement", "bicep_tendon_issues"],
+  "regressions": ["band_assisted_chin_up", "negative_chin_up"],
+  "progressions": ["weighted_chin_up", "archer_chin_up"],
+  "safety_notes": "Chin‑ups are slightly easier than pull‑ups because the biceps are more involved. If you have elbow pain, try a neutral grip or use rings. Warm up thoroughly before attempting max‑effort sets.",
+  "common_mistakes": ["Kipping or swinging", "Not pulling high enough", "Not fully extending at the bottom", "Using only arms, not engaging lats"],
+  "source": "Calisthenics and strength training",
+  "scientific_confidence": "high"
+}

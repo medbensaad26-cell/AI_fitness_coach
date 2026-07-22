@@ -1,0 +1,32 @@
+{
+  "id": "pull_up",
+  "name": "Pull‑Up",
+  "aliases": ["chin over bar", "bodyweight pull-up"],
+  "pattern": "vertical_pull",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["latissimus_dorsi", "biceps_brachii"],
+  "secondary_muscles": ["rhomboids", "trapezius_lower", "core", "forearms"],
+  "equipment": ["pull_up_bar"],
+  "difficulty": "intermediate",
+  "instructions": "Grab a pull‑up bar with a pronated (overhand) grip, hands slightly wider than shoulder‑width. Hang with arms fully extended, legs straight or slightly bent, core engaged. Pull yourself up by driving your elbows down and back, aiming to bring your chin above the bar. Pause briefly at the top, then lower yourself under control to the full hang position.",
+  "form_cues": [
+    "Start from a dead hang—no swinging",
+    "Drive your elbows down, not your hands",
+    "Keep your chest lifted, shoulders down",
+    "Squeeze your lats at the top"
+  ],
+  "contraindications": ["shoulder_impingement", "acute_elbow_tendinitis", "rotator_cuff_injury"],
+  "regressions": ["banded_pull_up", "negative_pull_up", "inverted_row"],
+  "progressions": ["weighted_pull_up", "muscle_up", "archer_pull_up"],
+  "safety_notes": "Avoid kipping until you can do strict pull‑ups—kipping places high stress on the shoulder joint. If you feel shoulder pain, try a chin‑up (supinated grip) instead. Warm up the shoulders with hangs and scapular pull‑ups.",
+  "common_mistakes": [
+    "Using excessive body swing (kipping without control)",
+    "Not pulling high enough (chin doesn't clear bar)",
+    "Flaring elbows too far out to the sides",
+    "Crossing legs behind and losing tension"
+  ],
+  "source": "Adapted from calisthenics and strength training literature",
+  "scientific_confidence": "high"
+}

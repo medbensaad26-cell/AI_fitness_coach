@@ -1,0 +1,32 @@
+{
+  "id": "walking_lunges",
+  "name": "Walking Lunges",
+  "aliases": ["dumbbell walking lunges", "barbell walking lunges"],
+  "pattern": "lunge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["hamstrings", "core", "adductors"],
+  "equipment": ["bodyweight", "dumbbell", "barbell"],
+  "difficulty": "beginner",
+  "instructions": "Stand with feet together, holding dumbbells at your sides (optional). Take a controlled step forward with one leg, bending both knees to lower your body. Your front thigh should be parallel to the floor, and your back knee should hover just above the ground. Keep your torso upright. Push through your front heel to drive yourself forward into the next lunge, stepping forward with the opposite leg.",
+  "form_cues": [
+    "Front knee stays aligned over the ankle, not past the toes excessively",
+    "Torso remains upright—don't lean forward",
+    "Back knee travels straight down, not forward",
+    "Brace your core for balance"
+  ],
+  "contraindications": ["severe_knee_pain", "balance_disorders", "acute_hip_flexor_strain"],
+  "regressions": ["stationary_lunges", "reverse_lunges", "split_squat"],
+  "progressions": ["reverse_lunges_with_deficit", "walking_lunges_with_rotation"],
+  "safety_notes": "Start with bodyweight to master balance. If you have knee pain, limit depth to pain‑free range or switch to reverse lunges. Never let the front knee cave inward. Use a wall or railing for support if balance is an issue.",
+  "common_mistakes": [
+    "Allowing the front knee to collapse inward",
+    "Leaning the torso forward excessively",
+    "Taking too short a step (causing front knee to travel far over the toe)",
+    "Stepping too wide (waddling)"
+  ],
+  "source": "Adapted from ACE and NSCA guidelines",
+  "scientific_confidence": "high"
+}

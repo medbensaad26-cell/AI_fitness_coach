@@ -1,0 +1,32 @@
+{
+  "id": "bicep_curl",
+  "name": "Bicep Curl",
+  "aliases": ["dumbbell curl", "standing bicep curl"],
+  "pattern": "isolation",
+  "type": "strength",
+  "mechanics": "isolation",
+  "force": "pull",
+  "primary_muscles": ["biceps_brachii"],
+  "secondary_muscles": ["forearms", "brachialis"],
+  "equipment": ["dumbbell", "barbell", "cable"],
+  "difficulty": "beginner",
+  "instructions": "Stand with feet shoulder‑width apart, holding a dumbbell in each hand at arm’s length, palms facing forward. Keeping your elbows pinned to your sides, curl the weights up by bending your elbows until your biceps are fully contracted. Squeeze at the top, then slowly lower the weights back to the starting position without letting your shoulders roll forward.",
+  "form_cues": [
+    "Elbows stay locked at your sides—don’t let them drift forward",
+    "No swinging; keep the movement strict",
+    "Fully extend your arms at the bottom for a full range of motion",
+    "Exhale as you curl up"
+  ],
+  "contraindications": ["elbow_tendinitis", "bicep_tendon_rupture"],
+  "regressions": ["banded_curl", "cable_curl"],
+  "progressions": ["incline_dumbbell_curl", "barbell_curl", "hammer_curl"],
+  "safety_notes": "Use a weight you can control for the full range of motion. If you feel sharp elbow pain, reduce weight or switch to a hammer curl (neutral grip). Avoid using momentum—this places unnecessary strain on the lower back and shoulders.",
+  "common_mistakes": [
+    "Swinging the body to cheat the weight up",
+    "Letting elbows travel forward",
+    "Not extending fully at the bottom",
+    "Gripping too tightly, causing forearm fatigue"
+  ],
+  "source": "General fitness knowledge, bodybuilding fundamentals",
+  "scientific_confidence": "high"
+}

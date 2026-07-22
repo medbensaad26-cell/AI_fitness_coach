@@ -10,3 +10,6 @@ email-validator
 python-dotenv
 bcrypt
 python-jose[cryptography]
+openai>=1.40.0
+fastembed>=0.4.0
+pypdf>=4.0.0

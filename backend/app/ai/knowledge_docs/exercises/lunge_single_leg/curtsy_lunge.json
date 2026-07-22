@@ -1,0 +1,27 @@
+{
+  "id": "curtsy_lunge",
+  "name": "Curtsy Lunge",
+  "aliases": ["curtsey lunge", "cross-back lunge"],
+  "pattern": "lunge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["gluteus_medius", "quadriceps"],
+  "secondary_muscles": ["hamstrings", "core", "adductors"],
+  "equipment": ["bodyweight", "dumbbell"],
+  "difficulty": "intermediate",
+  "instructions": "Stand with feet hip‑width apart. Step one foot back and across behind the other leg, as if doing a curtsy. Bend both knees to lower into a lunge, keeping your hips facing forward. Your front knee should stay over the ankle. Push through the front heel to return to start. Alternate legs.",
+  "form_cues": [
+    "Keep hips square — don't rotate",
+    "Front knee tracks over second toe",
+    "Upright torso",
+    "Squeeze glutes at the top"
+  ],
+  "contraindications": ["knee_pain", "hip_impingement", "balance_disorders"],
+  "regressions": ["stationary_lunge", "lateral_lunge"],
+  "progressions": ["curtsy_lunge_with_hop", "weighted_curtsy_lunge"],
+  "safety_notes": "This exercise challenges the lateral hip muscles. If you feel knee stress, shorten the step range. Use bodyweight until you master balance. Do not let the front knee collapse inward.",
+  "common_mistakes": ["Rotating the hips", "Front knee caving in", "Leaning too far forward", "Not stepping back far enough"],
+  "source": "Fitness and glute training literature",
+  "scientific_confidence": "high"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "goblet_squat",
+  "name": "Goblet Squat",
+  "aliases": ["dumbbell goblet squat"],
+  "pattern": "squat",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["core", "hamstrings", "adductors"],
+  "equipment": ["dumbbell"],
+  "difficulty": "beginner",
+  "instructions": "Hold one dumbbell vertically against your chest, elbows pointing down. Stand with feet shoulder-width apart, toes slightly turned out. Brace your core. Squat down by bending your knees and hips, keeping the chest up and the weight close to your body. Go as low as you can without rounding your lower back, ideally until your thighs are at least parallel to the floor. Drive through your heels to stand up.",
+  "form_cues": [
+    "Chest up, shoulders back",
+    "Knees track over the second toe",
+    "Weight distributed evenly across both feet",
+    "Keep the dumbbell touching your sternum throughout"
+  ],
+  "contraindications": ["severe_knee_pain", "acute_lower_back_injury"],
+  "regressions": ["bodyweight_squat", "box_squat"],
+  "progressions": ["goblet_squat_with_pulse", "dumbbell_front_squat"],
+  "safety_notes": "If you feel knee pain, reduce depth and use a box as a target. Do not let your heels rise. Stop immediately if you feel sharp pain in the lower back.",
+  "common_mistakes": [
+    "Letting the knees cave inward",
+    "Rounding the lower back",
+    "Heels coming off the ground"
+  ],
+  "source": "Adapted from ExRx.net and personal trainer knowledge",
+  "scientific_confidence": "high"
+}

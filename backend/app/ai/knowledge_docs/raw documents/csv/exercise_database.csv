@@ -1,0 +1,31 @@
+exercise_name,type,primary_muscle,equipment,difficulty
+Barbell Squat,Strength,Quadriceps,Barbell,Intermediate
+Front Squat,Strength,Quadriceps,Barbell,Advanced
+Goblet Squat,Strength,Quadriceps,Dumbbell,Beginner
+Romanian Deadlift,Strength,Hamstrings,Barbell,Intermediate
+Conventional Deadlift,Strength,Posterior Chain,Barbell,Advanced
+Hip Thrust,Strength,Glutes,Barbell,Intermediate
+Bench Press,Strength,Chest,Barbell,Intermediate
+Incline Dumbbell Press,Strength,Chest,Dumbbells,Intermediate
+Push-Up,Strength,Chest,Bodyweight,Beginner
+Pull-Up,Strength,Back,Bodyweight,Advanced
+Lat Pulldown,Strength,Back,Cable Machine,Beginner
+Bent-Over Row,Strength,Back,Barbell,Intermediate
+Seated Cable Row,Strength,Back,Cable Machine,Beginner
+Overhead Press,Strength,Shoulders,Barbell,Intermediate
+Lateral Raise,Strength,Shoulders,Dumbbells,Beginner
+Bicep Curl,Strength,Biceps,Dumbbells,Beginner
+Hammer Curl,Strength,Biceps,Dumbbells,Beginner
+Triceps Pushdown,Strength,Triceps,Cable Machine,Beginner
+Plank,Core,Core,Bodyweight,Beginner
+Hanging Leg Raise,Core,Core,Pull-Up Bar,Advanced
+Walking Lunge,Strength,Quadriceps,Dumbbells,Intermediate
+Leg Press,Strength,Quadriceps,Machine,Beginner
+Leg Curl,Strength,Hamstrings,Machine,Beginner
+Calf Raise,Strength,Calves,Machine,Beginner
+Russian Twist,Core,Obliques,Bodyweight,Beginner
+Mountain Climbers,Cardio,Core,Bodyweight,Beginner
+Burpee,Cardio,Full Body,Bodyweight,Advanced
+Jump Rope,Cardio,Full Body,Jump Rope,Beginner
+Cycling,Cardio,Legs,Bicycle,Beginner
+Running,Cardio,Legs,None,Beginner

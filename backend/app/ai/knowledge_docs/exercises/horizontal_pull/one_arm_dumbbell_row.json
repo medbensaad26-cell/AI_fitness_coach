@@ -1,0 +1,32 @@
+{
+  "id": "one_arm_dumbbell_row",
+  "name": "One-Arm Dumbbell Row",
+  "aliases": ["dumbbell row", "single-arm row"],
+  "pattern": "horizontal_pull",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["latissimus_dorsi", "rhomboids", "trapezius_middle"],
+  "secondary_muscles": ["biceps_brachii", "erector_spinae", "core"],
+  "equipment": ["dumbbell", "bench"],
+  "difficulty": "beginner",
+  "instructions": "Place one knee and the same-side hand on a flat bench, keeping your back parallel to the floor. Hold a dumbbell in the opposite hand, arm extended straight down. Pull the dumbbell up to your hip, driving your elbow behind you. Squeeze your back muscle at the top. Lower the weight under control until your arm is fully extended.",
+  "form_cues": [
+    "Keep your shoulders square to the bench",
+    "Don't twist your torso; isolate the back",
+    "Pull the dumbbell toward your hip, not your shoulder",
+    "Control the descent"
+  ],
+  "contraindications": ["acute_lower_back_injury", "shoulder_labrum_tear"],
+  "regressions": ["seated_cable_row", "incline_dumbbell_row"],
+  "progressions": ["bent_over_barbell_row", "kroc_row", "t-bar_row"],
+  "safety_notes": "Start with a light weight to master the form. Do not rotate your spine during the pull. If you have low-back issues, use an incline bench set to 45° for chest support.",
+  "common_mistakes": [
+    "Rounding the lower back",
+    "Twisting the torso to lift heavier weight",
+    "Pulling the dumbbell too high (shoulder instead of hip)",
+    "Using momentum"
+  ],
+  "source": "General fitness knowledge, ExRx.net",
+  "scientific_confidence": "high"
+}

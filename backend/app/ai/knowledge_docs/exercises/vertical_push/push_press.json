@@ -1,0 +1,27 @@
+{
+  "id": "push_press",
+  "name": "Push Press",
+  "aliases": ["barbell push press", "power push press"],
+  "pattern": "vertical_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["deltoids_anterior", "triceps_brachii"],
+  "secondary_muscles": ["quadriceps", "core", "trapezius_upper"],
+  "equipment": ["barbell"],
+  "difficulty": "intermediate",
+  "instructions": "Clean a barbell to your front rack position. Stand with feet shoulder‑width apart. Dip slightly by bending your knees and hips, keeping your torso upright. Explosively drive through your legs and simultaneously press the bar overhead. Finish with arms fully extended and head through. Lower the bar back to the front rack.",
+  "form_cues": [
+    "Dip and drive — use your legs",
+    "Keep the bar close to your face",
+    "Lock out at the top",
+    "Don't lean back excessively"
+  ],
+  "contraindications": ["shoulder_impingement", "acute_lower_back_injury", "uncontrolled_hypertension"],
+  "regressions": ["strict_overhead_press", "dumbbell_push_press"],
+  "progressions": ["split_jerk", "overhead_squat"],
+  "safety_notes": "The push press allows heavier loads than a strict press. Ensure you have the mobility to front rack safely. If your lower back arches excessively, reduce weight and engage your core. Not recommended for those with shoulder issues.",
+  "common_mistakes": ["Dipping too deep", "Leaning back", "Pressing the bar forward instead of up", "Not using enough leg drive"],
+  "source": "Olympic weightlifting and functional fitness",
+  "scientific_confidence": "high"
+}

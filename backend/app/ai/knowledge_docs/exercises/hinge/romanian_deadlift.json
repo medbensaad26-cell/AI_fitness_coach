@@ -1,0 +1,32 @@
+{
+  "id": "romanian_deadlift",
+  "name": "Romanian Deadlift",
+  "aliases": ["RDL", "dumbbell Romanian deadlift", "straight leg deadlift"],
+  "pattern": "hinge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["hamstrings", "gluteus_maximus"],
+  "secondary_muscles": ["erector_spinae", "core", "forearms"],
+  "equipment": ["dumbbell", "barbell"],
+  "difficulty": "intermediate",
+  "instructions": "Hold a dumbbell in each hand (or a barbell) at hip height with an overhand grip. Stand with feet hip-width apart, knees slightly bent but fixed. Keeping your back neutral and chest up, hinge at the hips by pushing your butt backward. Lower the weight along the front of your legs until you feel a strong stretch in your hamstrings—typically when the weight reaches mid-shin or when your back begins to round. Do not let your back round. Return to the starting position by driving your hips forward.",
+  "form_cues": [
+    "Keep the dumbbells touching your legs throughout",
+    "Only lower as far as you can keep a neutral spine",
+    "Knee angle should not change",
+    "Push your hips back, don't just bend over"
+  ],
+  "contraindications": ["acute_lower_back_injury", "severe_hamstring_strain", "disc_herniation"],
+  "regressions": ["hip_hinge_with_dowel", "glute_bridge"],
+  "progressions": ["single_leg_RDL", "barbell_RDL", "deficit_RDL"],
+  "safety_notes": "This is a stretch-strength exercise; do not use excessive weight that forces you to round your back. If you have a history of back issues, start with very light weight and focus on form. Stop if you feel sharp lower back pain—mild hamstring tension is normal.",
+  "common_mistakes": [
+    "Rounding the lower back (flexion)",
+    "Bending the knees too much (turning it into a squat)",
+    "Letting the weights drift away from the legs",
+    "Overextending at the top"
+  ],
+  "source": "Adapted from NSCA and physiotherapy guidelines",
+  "scientific_confidence": "high"
+}

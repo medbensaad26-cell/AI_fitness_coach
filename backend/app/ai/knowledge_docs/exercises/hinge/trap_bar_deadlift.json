@@ -1,0 +1,27 @@
+{
+  "id": "trap_bar_deadlift",
+  "name": "Trap Bar Deadlift",
+  "aliases": ["hex bar deadlift", "trap bar lift"],
+  "pattern": "hinge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["gluteus_maximus", "hamstrings", "quadriceps"],
+  "secondary_muscles": ["erector_spinae", "core", "forearms"],
+  "equipment": ["trap_bar"],
+  "difficulty": "intermediate",
+  "instructions": "Stand inside the trap bar with feet hip‑width apart. Bend at the hips and knees to grasp the handles (use the high handles if you have limited mobility). Keep your back flat and chest up. Brace your core. Drive through your heels and extend your hips and knees simultaneously to stand up straight. Do not lean back at the top. Lower the bar by hinging at the hips and bending your knees.",
+  "form_cues": [
+    "Bar path straight up, no drifting",
+    "Keep your shoulders over the bar",
+    "Squeeze glutes at the top",
+    "Don't hyperextend your back"
+  ],
+  "contraindications": ["acute_lower_back_injury", "untreated_hypertension"],
+  "regressions": ["kettlebell_swing", "romanian_deadlift"],
+  "progressions": ["conventional_deadlift", "sumo_deadlift", "deficit_trap_bar_deadlift"],
+  "safety_notes": "The trap bar reduces lower back stress compared to a conventional deadlift, making it a good option for those with back concerns. Still, always brace your core and keep your spine neutral. Avoid jerking the weight off the floor.",
+  "common_mistakes": ["Rounding the lower back", "Using too much weight and losing form", "Not standing fully up", "Letting the hips rise too fast"],
+  "source": "NSCA, strength and conditioning textbooks",
+  "scientific_confidence": "high"
+}

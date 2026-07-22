@@ -1,0 +1,27 @@
+{
+  "id": "arnold_press",
+  "name": "Arnold Press",
+  "aliases": ["arnold dumbbell press", "rotational shoulder press"],
+  "pattern": "vertical_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["deltoids_anterior", "deltoids_lateral", "triceps_brachii"],
+  "secondary_muscles": ["trapezius_upper", "core"],
+  "equipment": ["dumbbell"],
+  "difficulty": "intermediate",
+  "instructions": "Sit on a bench with back support. Hold dumbbells in front of you at upper‑chest height, palms facing you (like the top of a curl). Press the dumbbells overhead while rotating your palms to face forward at the top. Your arms should end up extended with palms forward. Reverse the motion, rotating your palms back to the starting position.",
+  "form_cues": [
+    "Rotate smoothly — don't jerk",
+    "Keep your back against the pad",
+    "Don't lock out elbows forcefully",
+    "Breathe out as you press up"
+  ],
+  "contraindications": ["shoulder_impingement", "rotator_cuff_injury"],
+  "regressions": ["dumbbell_shoulder_press", "lighter_weight"],
+  "progressions": ["standing_arnold_press", "heavier_dumbbells"],
+  "safety_notes": "This variation includes rotation, which may irritate a sensitive shoulder. If you feel pain, switch to a standard dumbbell press. Use a controlled tempo; the rotation should be deliberate, not ballistic.",
+  "common_mistakes": ["Rotating too quickly", "Pressing with elbows flared", "Leaning back excessively", "Not fully extending at the top"],
+  "source": "Bodybuilding and shoulder training manuals",
+  "scientific_confidence": "medium"
+}

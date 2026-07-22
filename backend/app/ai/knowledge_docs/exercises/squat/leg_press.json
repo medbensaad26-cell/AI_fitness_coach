@@ -1,0 +1,31 @@
+{
+  "id": "leg_press",
+  "name": "Leg Press",
+  "aliases": ["machine leg press", "sled leg press"],
+  "pattern": "squat",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["hamstrings", "adductors"],
+  "equipment": ["leg_press_machine"],
+  "difficulty": "beginner",
+  "instructions": "Sit on the leg press machine and place your feet shoulder-width apart on the platform, toes slightly out. Adjust the seat so your knees are bent at about 90 degrees in the starting position. Unlatch the safety handles. Lower the weight by bending your knees until they are at approximately 90 degrees (or your comfort limit). Press the platform back to the starting position without locking your knees forcefully.",
+  "form_cues": [
+    "Keep your entire foot in contact with the platform",
+    "Don’t let your knees cave inward",
+    "Maintain a natural lower back arch (don't round)",
+    "Control the descent, don't bounce"
+  ],
+  "contraindications": ["acute_lower_back_injury", "severe_knee_pain"],
+  "regressions": ["bodyweight_squat", "goblet_squat"],
+  "progressions": ["single_leg_leg_press", "leg_press_with_bands"],
+  "safety_notes": "Do not lock your knees at the top—this can cause injury. Always use the safety latches when entering/exiting the machine. If you feel lower back pain, reduce the depth or switch to a more back-friendly exercise like a goblet squat.",
+  "common_mistakes": [
+    "Going too deep (hips tilting off the seat)",
+    "Locking knees violently",
+    "Placing feet too low or too high on the platform"
+  ],
+  "source": "General gym knowledge, ACSM guidelines",
+  "scientific_confidence": "high"
+}

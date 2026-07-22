@@ -1,0 +1,27 @@
+{
+  "id": "inverted_row",
+  "name": "Inverted Row",
+  "aliases": ["bodyweight row", "suspension row", "Australian pull-up"],
+  "pattern": "horizontal_pull",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["latissimus_dorsi", "rhomboids", "trapezius_middle"],
+  "secondary_muscles": ["biceps_brachii", "core"],
+  "equipment": ["bar", "suspension_trainer"],
+  "difficulty": "beginner",
+  "instructions": "Set a bar at waist height (e.g., in a Smith machine or power rack). Lie underneath and grab the bar with an overhand grip, hands slightly wider than shoulder‑width. Extend your legs, keeping your body straight from heels to shoulders. Pull your chest to the bar by driving your elbows back, squeezing your shoulder blades together. Lower back to the start position under control.",
+  "form_cues": [
+    "Keep your body in a straight line — don't let hips sag",
+    "Pull with your elbows, not your hands",
+    "Squeeze shoulder blades at the top",
+    "Lower slowly, don't just drop"
+  ],
+  "contraindications": ["shoulder_labrum_tear", "acute_lower_back_strain"],
+  "regressions": ["band_assisted_inverted_row", "seated_row"],
+  "progressions": ["feet_elevated_inverted_row", "weighted_inverted_row"],
+  "safety_notes": "Make sure the bar is secure and will not roll. If you cannot keep your body straight, bend your knees and plant your feet. This exercise is gentler on the lower back than bent‑over rows.",
+  "common_mistakes": ["Hips sagging", "Not pulling all the way to the chest", "Using momentum", "Elbows flaring out too wide"],
+  "source": "Calisthenics and general strength training",
+  "scientific_confidence": "high"
+}

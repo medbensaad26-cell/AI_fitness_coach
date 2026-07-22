@@ -1,0 +1,27 @@
+{
+  "id": "straight_arm_pulldown",
+  "name": "Straight-Arm Pulldown",
+  "aliases": ["cable straight-arm pulldown", "straight arm lat pushdown"],
+  "pattern": "vertical_pull",
+  "type": "strength",
+  "mechanics": "isolation",
+  "force": "pull",
+  "primary_muscles": ["latissimus_dorsi"],
+  "secondary_muscles": ["triceps_brachii", "core"],
+  "equipment": ["cable"],
+  "difficulty": "beginner",
+  "instructions": "Attach a straight bar or rope to a high pulley. Stand facing the cable, feet shoulder‑width apart, and grasp the bar with an overhand grip, hands about shoulder‑width. Step back slightly, hinge forward a little at the hips, and keep your arms straight. Pull the bar down toward your thighs by driving your arms down, keeping them straight. Squeeze your lats at the bottom. Return to the start under control.",
+  "form_cues": [
+    "Keep your arms straight — minimal elbow bend",
+    "Pull down with your lats, not your shoulders",
+    "Don't lean too far forward",
+    "Control the weight on the way up"
+  ],
+  "contraindications": ["shoulder_labrum_tear"],
+  "regressions": ["lighter_weight", "band_straight_arm_pulldown"],
+  "progressions": ["heavier_weight", "single_arm_cable_pulldown"],
+  "safety_notes": "Use a light weight to start. This exercise isolates the lats and is low‑stress on the elbow joints. If you feel shoulder discomfort, reduce the range of motion or stop.",
+  "common_mistakes": ["Bending the elbows too much", "Using too much weight and swinging", "Rounding the back", "Not squeezing at the bottom"],
+  "source": "Bodybuilding and isolation exercise guides",
+  "scientific_confidence": "high"
+}

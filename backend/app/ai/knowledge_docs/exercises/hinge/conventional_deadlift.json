@@ -1,0 +1,32 @@
+{
+  "id": "conventional_deadlift",
+  "name": "Conventional Deadlift",
+  "aliases": ["deadlift", "barbell deadlift"],
+  "pattern": "hinge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["erector_spinae", "gluteus_maximus", "hamstrings"],
+  "secondary_muscles": ["quadriceps", "core", "forearms", "latissimus_dorsi"],
+  "equipment": ["barbell"],
+  "difficulty": "intermediate",
+  "instructions": "Stand with feet hip-width apart under the barbell, shins close to the bar. Bend at the hips and knees, grip the bar with hands just outside your legs (mixed or double overhand grip). Flatten your back, engage your lats by imagining bending the bar around your shins. Take a deep breath and brace your core. Drive through your heels, extending your hips and knees simultaneously to lift the bar in a straight line close to your body. At the top, fully extend your hips and knees—do not lean backward. Return the bar by hinging at the hips first, then bending your knees once the bar passes them.",
+  "form_cues": [
+    "Bar over midfoot, not forward",
+    "Chest up, hips higher than a squat",
+    "Pull the slack out of the bar before lifting",
+    "Keep the bar in contact with your legs the entire time"
+  ],
+  "contraindications": ["acute_lower_back_injury", "disc_herniation", "osteoporosis", "untreated_hypertension"],
+  "regressions": ["kettlebell_swing", "romanian_deadlift", "hip_hinge_with_dowel"],
+  "progressions": ["sumo_deadlift", "deficit_deadlift", "barbell_rack_pull"],
+  "safety_notes": "Never round your lower back during the lift. If you cannot maintain a neutral spine, reduce weight. Do not jerk the bar off the ground—apply gradual tension. People with high blood pressure should avoid the Valsalva maneuver or use lighter loads. Always warm up thoroughly.",
+  "common_mistakes": [
+    "Rounding the lower back",
+    "Hips rising too fast (legs straighten before hips)",
+    "Bar drifting away from the body",
+    "Hyperextending at the top"
+  ],
+  "source": "Adapted from ExRx.net and Starting Strength methodology",
+  "scientific_confidence": "high"
+}

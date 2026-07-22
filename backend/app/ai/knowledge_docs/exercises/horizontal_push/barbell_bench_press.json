@@ -1,0 +1,32 @@
+{
+  "id": "barbell_bench_press",
+  "name": "Barbell Bench Press",
+  "aliases": ["bench press", "flat bench press"],
+  "pattern": "horizontal_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["pectoralis_major", "triceps_brachii"],
+  "secondary_muscles": ["deltoids_anterior"],
+  "equipment": ["barbell", "bench"],
+  "difficulty": "intermediate",
+  "instructions": "Lie on a flat bench with your feet planted on the floor. Grip the barbell slightly wider than shoulder-width, unrack it, and hold it above your chest with arms extended. Lower the bar slowly until it touches your mid-chest, keeping your elbows at about a 45-degree angle to your torso. Press the bar back up to full arm extension, driving through your chest. Do not bounce the bar off your chest.",
+  "form_cues": [
+    "Retract your shoulder blades and keep them pinned",
+    "Maintain a natural arch in your lower back",
+    "Keep your feet driving into the floor for stability",
+    "Bar path should be a slight arc, not straight up and down"
+  ],
+  "contraindications": ["shoulder_impingement", "acute_pec_tear", "rotator_cuff_injury"],
+  "regressions": ["dumbbell_bench_press", "push_up"],
+  "progressions": ["incline_barbell_press", "close_grip_bench_press", "pause_bench_press"],
+  "safety_notes": "Always use a spotter for heavy lifts or set safety pins in a power rack. Do not bounce the bar off your chest. If you feel shoulder pain, narrow your grip or reduce range of motion. Cease immediately if you experience sharp chest or shoulder pain.",
+  "common_mistakes": [
+    "Flaring elbows too wide (90 degrees)",
+    "Bouncing the bar off the chest",
+    "Losing shoulder blade retraction",
+    "Feet lifting off the floor"
+  ],
+  "source": "Adapted from ExRx.net and powerlifting best practices",
+  "scientific_confidence": "high"
+}

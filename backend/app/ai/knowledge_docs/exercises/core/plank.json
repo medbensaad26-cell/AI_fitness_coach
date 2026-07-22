@@ -1,0 +1,32 @@
+{
+  "id": "plank",
+  "name": "Plank",
+  "aliases": ["front plank", "prone hold"],
+  "pattern": "core",
+  "type": "stability",
+  "mechanics": "isometric",
+  "force": "static",
+  "primary_muscles": ["core", "rectus_abdominis", "transversus_abdominis"],
+  "secondary_muscles": ["erector_spinae", "gluteus_maximus", "shoulders"],
+  "equipment": ["bodyweight"],
+  "difficulty": "beginner",
+  "instructions": "Start on your hands and knees, then lower your forearms to the floor with elbows directly under your shoulders. Step your feet back one at a time, coming onto your toes. Your body should form a straight, rigid line from heels to head. Squeeze your glutes, brace your abs, and keep your neck neutral (eyes on the floor slightly ahead). Hold this position, breathing steadily.",
+  "form_cues": [
+    "Don’t let your hips sag—this indicates core failure",
+    "Don’t pike your hips up—keep them in line with your shoulders",
+    "Squeeze your quads and glutes to maintain rigidity",
+    "Breathe normally; don’t hold your breath"
+  ],
+  "contraindications": ["acute_lower_back_injury", "wrist_pain", "shoulder_impingement"],
+  "regressions": ["knee_plank", "incline_plank"],
+  "progressions": ["plank_with_leg_lift", "side_plank", "plank_on_hands"],
+  "safety_notes": "If you feel lower back strain, your hips are probably sagging—elevate to an incline or drop to your knees. Avoid if you have uncontrolled high blood pressure due to the isometric hold. Stop if you feel shoulder pain; try on your hands instead of forearms.",
+  "common_mistakes": [
+    "Hips sagging (lumbar hyperextension)",
+    "Hips too high (piked position)",
+    "Holding breath",
+    "Looking forward or up (neck strain)"
+  ],
+  "source": "Physiotherapy and general fitness guidelines",
+  "scientific_confidence": "high"
+}

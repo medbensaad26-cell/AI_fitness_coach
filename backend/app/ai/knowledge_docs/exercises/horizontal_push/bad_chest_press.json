@@ -1,0 +1,27 @@
+{
+  "id": "band_chest_press",
+  "name": "Band Chest Press",
+  "aliases": ["resistance band chest press", "band press"],
+  "pattern": "horizontal_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["pectoralis_major", "triceps_brachii"],
+  "secondary_muscles": ["deltoids_anterior"],
+  "equipment": ["resistance_band"],
+  "difficulty": "beginner",
+  "instructions": "Anchor a resistance band behind you (e.g., around a sturdy pole or in a door anchor). Hold one end of the band in each hand at chest height, palms facing down. Stagger your stance or stand with feet shoulder‑width apart. Press the band forward until your arms are fully extended, feeling resistance throughout. Slowly return to the start position.",
+  "form_cues": [
+    "Keep your shoulders down and back",
+    "Don't lock your elbows aggressively",
+    "Maintain a stable stance",
+    "Control the band — don't let it snap back"
+  ],
+  "contraindications": ["none_known"],
+  "regressions": ["lighter_band", "wall_push_up"],
+  "progressions": ["heavier_band", "one_arm_band_press"],
+  "safety_notes": "Check the band for wear and tear before use. Ensure the anchor point is secure. Avoid overstretching the band beyond its recommended range. If the band snaps, it can cause injury.",
+  "common_mistakes": ["Rounding the shoulders", "Using a band that's too heavy", "Not fully extending the arms", "Leaning forward excessively"],
+  "source": "Resistance band training manuals, physical therapy resources",
+  "scientific_confidence": "high"
+}

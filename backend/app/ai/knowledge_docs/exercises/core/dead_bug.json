@@ -1,0 +1,32 @@
+{
+  "id": "dead_bug",
+  "name": "Dead Bug",
+  "aliases": ["supine core activation"],
+  "pattern": "core",
+  "type": "stability",
+  "mechanics": "compound",
+  "force": "anti‑extension",
+  "primary_muscles": ["core", "transversus_abdominis", "rectus_abdominis"],
+  "secondary_muscles": ["hip_flexors", "shoulders"],
+  "equipment": ["bodyweight"],
+  "difficulty": "beginner",
+  "instructions": "Lie on your back with your arms extended straight up toward the ceiling and your legs lifted with knees bent at 90° (tabletop position). Press your lower back gently into the floor—this is your starting position. Slowly extend your right arm overhead and simultaneously straighten your left leg toward the floor without letting your back arch off the ground. Return to the start with control and repeat on the opposite side. That’s one rep.",
+  "form_cues": [
+    "Your lower back must stay in contact with the floor at all times",
+    "Move slowly and deliberately—no momentum",
+    "Exhale as you extend; inhale on the return",
+    "Keep your ribs pulled down; don’t let them flare up"
+  ],
+  "contraindications": ["acute_hip_flexor_strain", "neck_pain"],
+  "regressions": ["dead_bug_arms_only", "dead_bug_legs_only"],
+  "progressions": ["dead_bug_with_band", "dead_bug_with_light_weights"],
+  "safety_notes": "This is a low‑risk exercise, but stop if you feel neck tension (you may be lifting your head). If you can’t keep your lower back flat, reduce the range of motion—only extend your limbs as far as you can without arching. Perfect for rehab settings.",
+  "common_mistakes": [
+    "Lower back arching off the floor",
+    "Moving too fast and using momentum",
+    "Holding breath",
+    "Extending the leg too low, losing core control"
+  ],
+  "source": "Physiotherapy and functional training literature",
+  "scientific_confidence": "high"
+}

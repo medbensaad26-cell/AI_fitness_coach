@@ -1,0 +1,32 @@
+{
+  "id": "barbell_overhead_press",
+  "name": "Standing Barbell Overhead Press",
+  "aliases": ["military press", "OHP", "strict press"],
+  "pattern": "vertical_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["deltoids_anterior", "deltoids_lateral", "triceps_brachii"],
+  "secondary_muscles": ["trapezius_upper", "core", "serratus_anterior"],
+  "equipment": ["barbell"],
+  "difficulty": "intermediate",
+  "instructions": "Stand with feet shoulder-width apart. Clean the barbell to your front rack position (bar resting on your clavicles and front delts, elbows forward) or take it from a squat rack. Brace your core. Press the bar straight overhead, moving your head slightly back to allow the bar path to be vertical, then push your head through at the top. Lock out your elbows. Lower the bar back to the front rack position under control.",
+  "form_cues": [
+    "Squeeze your glutes to protect your lower back",
+    "Bar path should be straight up, not around your face",
+    "Keep your wrists neutral",
+    "Don't lean back excessively; use a slight hip drive only if needed"
+  ],
+  "contraindications": ["shoulder_impingement", "rotator_cuff_injury", "cervical_spine_issues"],
+  "regressions": ["dumbbell_shoulder_press", "seated_barbell_press", "landmine_press"],
+  "progressions": ["push_press", "split_jerk", "overhead_squat"],
+  "safety_notes": "Avoid if you have active shoulder impingement. Always warm up the rotator cuff. Don't lock out explosively if you have hypermobile elbows. If you experience lower back pain, try a seated version or use a lifting belt.",
+  "common_mistakes": [
+    "Excessive back arch (leaning back turns it into an incline press)",
+    "Flaring elbows too far out",
+    "Pressing the bar forward instead of straight up",
+    "Not bracing the core"
+  ],
+  "source": "Adapted from Starting Strength and NSCA guidelines",
+  "scientific_confidence": "high"
+}

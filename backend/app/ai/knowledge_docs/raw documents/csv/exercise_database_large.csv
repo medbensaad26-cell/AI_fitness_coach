@@ -1,0 +1,81 @@
+id,name,type,primary_muscle,equipment,difficulty,contraindications
+barbell_back_squat,Barbell Back Squat,strength,quadriceps,barbell; squat_rack,intermediate,acute_lower_back_injury; severe_knee_pain
+goblet_squat,Goblet Squat,strength,quadriceps,dumbbell,beginner,severe_knee_pain; acute_lower_back_injury
+bulgarian_split_squat,Bulgarian Split Squat,strength,quadriceps,dumbbell; bench,intermediate,knee_pain; balance_disorders
+leg_press,Leg Press,strength,quadriceps,leg_press_machine,beginner,acute_lower_back_injury; severe_knee_pain
+conventional_deadlift,Conventional Deadlift,strength,gluteus_maximus; hamstrings,barbell,intermediate,acute_lower_back_injury; disc_herniation
+romanian_deadlift,Romanian Deadlift,strength,hamstrings,dumbbell; barbell,intermediate,acute_lower_back_injury; severe_hamstring_strain
+kettlebell_swing,Kettlebell Swing,strength,gluteus_maximus,kettlebell,intermediate,acute_lower_back_injury; shoulder_instability
+barbell_bench_press,Barbell Bench Press,strength,pectoralis_major,barbell; bench,intermediate,shoulder_impingement; acute_pec_tear
+dumbbell_bench_press,Dumbbell Bench Press,strength,pectoralis_major,dumbbell; bench,intermediate,shoulder_impingement; acute_pec_tear
+push_up,Push-Up,strength,pectoralis_major,bodyweight,beginner,wrist_pain; shoulder_impingement
+bent_over_barbell_row,Bent-Over Barbell Row,strength,latissimus_dorsi,barbell,intermediate,acute_lower_back_injury; shoulder_impingement
+one_arm_dumbbell_row,One-Arm Dumbbell Row,strength,latissimus_dorsi,dumbbell; bench,beginner,acute_lower_back_injury
+seated_cable_row,Seated Cable Row,strength,latissimus_dorsi,cable; v_bar_attachment,beginner,acute_lower_back_injury
+barbell_overhead_press,Standing Barbell Overhead Press,strength,deltoids_anterior,barbell,intermediate,shoulder_impingement; rotator_cuff_injury
+dumbbell_shoulder_press,Dumbbell Shoulder Press,strength,deltoids_anterior,dumbbell; bench,intermediate,shoulder_impingement; rotator_cuff_injury
+lateral_raise,Lateral Raise,isolation,deltoids_lateral,dumbbell,beginner,shoulder_impingement
+pull_up,Pull-Up,strength,latissimus_dorsi,pull_up_bar,intermediate,shoulder_impingement; elbow_tendinitis
+lat_pulldown,Lat Pulldown,strength,latissimus_dorsi,cable; lat_pulldown_bar,beginner,shoulder_impingement
+walking_lunges,Walking Lunges,strength,quadriceps,dumbbell; bodyweight,beginner,severe_knee_pain; balance_disorders
+step_ups,Step-Ups,strength,quadriceps,box; dumbbell,beginner,knee_pain; balance_disorders
+plank,Plank,stability,core,bodyweight,beginner,acute_lower_back_injury; wrist_pain
+dead_bug,Dead Bug,stability,core,bodyweight,beginner,acute_hip_flexor_strain; neck_pain
+bicep_curl,Bicep Curl,isolation,biceps_brachii,dumbbell; barbell,beginner,elbow_tendinitis
+tricep_pushdown,Tricep Pushdown,isolation,triceps_brachii,cable; rope_attachment,beginner,elbow_tendinitis; wrist_pain
+chest_fly,Chest Fly,isolation,pectoralis_major,dumbbell; pec_deck_machine,beginner,shoulder_impingement; rotator_cuff_injury
+bodyweight_squat,Bodyweight Squat,strength,quadriceps,bodyweight,beginner,acute_knee_injury
+sumo_squat,Sumo Squat,strength,adductors,dumbbell; kettlebell,beginner,hip_impingement
+barbell_front_squat,Barbell Front Squat,strength,quadriceps,barbell,intermediate,wrist_pain; shoulder_impingement
+pistol_squat,Pistol Squat,strength,quadriceps,bodyweight,advanced,knee_pain; balance_disorders
+trap_bar_deadlift,Trap Bar Deadlift,strength,gluteus_maximus,trap_bar,intermediate,acute_lower_back_injury
+single_leg_rdl,Single-Leg Romanian Deadlift,strength,hamstrings,dumbbell,intermediate,acute_lower_back_injury; balance_disorders
+good_morning,Good Morning,strength,hamstrings,barbell; bodyweight,intermediate,acute_lower_back_injury; disc_herniation
+incline_dumbbell_press,Incline Dumbbell Press,strength,pectoralis_major_upper,dumbbell; bench,intermediate,shoulder_impingement
+decline_push_up,Decline Push-Up,strength,pectoralis_major_lower,bodyweight; bench,intermediate,wrist_pain; shoulder_impingement
+band_chest_press,Band Chest Press,strength,pectoralis_major,resistance_band,beginner,none_known
+inverted_row,Inverted Row,strength,latissimus_dorsi,bar; suspension_trainer,beginner,shoulder_labrum_tear
+band_pull_apart,Band Pull-Apart,isolation,deltoids_posterior,resistance_band,beginner,none_known
+chest_supported_row,Chest-Supported Dumbbell Row,strength,latissimus_dorsi,dumbbell; bench,beginner,none_known
+arnold_press,Arnold Press,strength,deltoids_anterior,dumbbell,intermediate,shoulder_impingement
+push_press,Push Press,strength,deltoids_anterior,barbell,intermediate,shoulder_impingement
+band_overhead_press,Band Overhead Press,strength,deltoids_anterior,resistance_band,beginner,shoulder_impingement
+chin_up,Chin-Up,strength,latissimus_dorsi,pull_up_bar,intermediate,elbow_tendinitis; shoulder_impingement
+straight_arm_pulldown,Straight-Arm Pulldown,isolation,latissimus_dorsi,cable,beginner,shoulder_labrum_tear
+reverse_lunge,Reverse Lunge,strength,quadriceps,bodyweight; dumbbell,beginner,severe_knee_pain
+curtsy_lunge,Curtsy Lunge,strength,gluteus_medius,bodyweight; dumbbell,intermediate,knee_pain; hip_impingement
+side_plank,Side Plank,stability,obliques,bodyweight,beginner,shoulder_instability; wrist_pain
+pallof_press,Pallof Press,stability,core,cable; resistance_band,beginner,none_known
+ab_wheel_rollout,Ab Wheel Rollout,strength,rectus_abdominis,ab_wheel,advanced,acute_lower_back_injury; disc_herniation
+face_pull,Face Pull,isolation,deltoids_posterior,cable; resistance_band,beginner,shoulder_impingement
+glute_bridge,Glute Bridge,isolation,gluteus_maximus,bodyweight; dumbbell,beginner,none_known
+dumbbell_floor_press,Dumbbell Floor Press,strength,pectoralis_major,dumbbell,beginner,shoulder_impingement
+band_glute_ham_raise,Band Glute Ham Raise,strength,gluteus_maximus,resistance_band,intermediate,lower_back_pain
+wall_sit,Wall Sit,isometric,quadriceps,bodyweight,beginner,knee_pain
+cable_woodchop,Cable Woodchop,strength,obliques,cable,beginner,lower_back_pain
+landmine_press,Landmine Press,strength,deltoids_anterior,landmine; barbell,beginner,shoulder_impingement
+farmers_walk,Farmers Walk,strongman,core; forearms,dumbbell; kettlebell,beginner,none_known
+battle_rope,Battle Ropes,conditioning,shoulders; core,battle_rope,beginner,shoulder_impingement
+box_jump,Box Jump,plyometric,quadriceps,box,intermediate,knee_pain; ankle_instability
+med_ball_slam,Medicine Ball Slam,power,core; lats,medicine_ball,beginner,lower_back_pain
+sled_push,Sled Push,conditioning,quadriceps,weighted_sled,intermediate,knee_pain; heart_condition
+assault_bike,Assault Bike,cardio,full_body,assault_bike,beginner,heart_condition; severe_asthma
+rowing_ergometer,Rowing Ergometer,cardio,full_body,rowing_machine,beginner,lower_back_pain
+treadmill_run,Treadmill Run,cardio,lower_body,treadmill,beginner,severe_knee_pain
+elliptical,Elliptical Trainer,cardio,lower_body,elliptical,beginner,knee_pain
+burpee,Burpee,conditioning,full_body,bodyweight,intermediate,wrist_pain; shoulder_impingement
+mountain_climber,Mountain Climber,conditioning,core,bodyweight,beginner,wrist_pain
+jumping_jack,Jumping Jack,cardio,full_body,bodyweight,beginner,knee_pain
+high_knee,High Knees,cardio,hip_flexors,bodyweight,beginner,knee_pain
+butt_kick,Butt Kicks,cardio,hamstrings,bodyweight,beginner,knee_pain
+skater_hop,Skater Hop,conditioning,gluteus_medius,bodyweight,intermediate,ankle_instability
+bench_dip,Bench Dip,strength,triceps_brachii,bench,beginner,shoulder_impingement; wrist_pain
+concentration_curl,Concentration Curl,isolation,biceps_brachii,dumbbell,beginner,elbow_tendinitis
+overhead_tricep_extension,Overhead Tricep Extension,isolation,triceps_brachii,dumbbell,beginner,elbow_tendinitis
+hammer_curl,Hammer Curl,isolation,brachialis,dumbbell,beginner,elbow_tendinitis
+calf_raise,Calf Raise,isolation,calves,bodyweight; dumbbell,beginner,none_known
+donkey_kick,Donkey Kick,isolation,gluteus_maximus,bodyweight; resistance_band,beginner,none_known
+fire_hydrant,Fire Hydrant,isolation,gluteus_medius,bodyweight,beginner,none_known
+clam_shell,Clam Shell,isolation,gluteus_medius,resistance_band,beginner,none_known
+bird_dog,Bird Dog,stability,core,bodyweight,beginner,lower_back_pain
+superman,Superman,stability,erector_spinae,bodyweight,beginner,lower_back_pain

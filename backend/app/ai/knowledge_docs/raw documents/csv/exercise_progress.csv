@@ -1,0 +1,21 @@
+exercise,date,weight_kg,reps
+Bench Press,2026-01-05,60,8
+Bench Press,2026-01-12,62.5,8
+Bench Press,2026-01-19,65,8
+Bench Press,2026-01-26,67.5,7
+Bench Press,2026-02-02,67.5,8
+Squat,2026-01-05,80,6
+Squat,2026-01-12,82.5,6
+Squat,2026-01-19,85,6
+Squat,2026-01-26,87.5,5
+Squat,2026-02-02,87.5,6
+Deadlift,2026-01-05,100,5
+Deadlift,2026-01-12,105,5
+Deadlift,2026-01-19,110,5
+Deadlift,2026-01-26,115,5
+Deadlift,2026-02-02,120,5
+Overhead Press,2026-01-05,35,8
+Overhead Press,2026-01-12,37.5,8
+Overhead Press,2026-01-19,40,7
+Overhead Press,2026-01-26,40,8
+Overhead Press,2026-02-02,42.5,6

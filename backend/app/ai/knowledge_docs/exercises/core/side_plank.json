@@ -1,0 +1,27 @@
+{
+  "id": "side_plank",
+  "name": "Side Plank",
+  "aliases": ["side bridge", "lateral plank"],
+  "pattern": "core",
+  "type": "stability",
+  "mechanics": "isometric",
+  "force": "static",
+  "primary_muscles": ["obliques", "core"],
+  "secondary_muscles": ["gluteus_medius", "shoulder_stabilizers"],
+  "equipment": ["bodyweight"],
+  "difficulty": "beginner",
+  "instructions": "Lie on your side with your legs straight. Prop yourself up on your bottom elbow, which should be directly under your shoulder. Stack your feet or place the top foot in front for stability. Raise your hips until your body forms a straight line from head to heels. Hold this position, breathing steadily. Repeat on the other side.",
+  "form_cues": [
+    "Hips lifted — don't sag",
+    "Body in a straight line",
+    "Engage your core and glutes",
+    "Don't hold your breath"
+  ],
+  "contraindications": ["shoulder_instability", "wrist_pain"],
+  "regressions": ["knee_side_plank", "incline_side_plank"],
+  "progressions": ["side_plank_with_leg_lift", "side_plank_on_hand"],
+  "safety_notes": "If you feel shoulder discomfort, try the variation with your bottom arm extended or rest on your hand instead of your elbow. Keep the neck neutral. If you cannot hold the position, lower your hips and build up time gradually.",
+  "common_mistakes": ["Hips sagging toward the floor", "Rotating the torso", "Looking down or up (neck strain)", "Holding breath"],
+  "source": "Physiotherapy and core training guidelines",
+  "scientific_confidence": "high"
+}

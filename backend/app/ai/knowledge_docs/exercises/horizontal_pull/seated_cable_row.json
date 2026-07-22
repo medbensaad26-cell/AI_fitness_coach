@@ -1,0 +1,32 @@
+{
+  "id": "seated_cable_row",
+  "name": "Seated Cable Row",
+  "aliases": ["cable row", "seated row"],
+  "pattern": "horizontal_pull",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["latissimus_dorsi", "rhomboids", "trapezius_middle"],
+  "secondary_muscles": ["biceps_brachii", "erector_spinae", "core"],
+  "equipment": ["cable", "v_bar_attachment"],
+  "difficulty": "beginner",
+  "instructions": "Sit at a cable row station with your feet braced on the platform. Grab the V-bar handle with both hands, palms facing each other. Sit upright with your back straight and a slight bend in your knees. Pull the handle toward your lower abdomen, retracting your shoulder blades and squeezing at the end. Return to the start without letting your shoulders round forward.",
+  "form_cues": [
+    "Keep your chest up and shoulders down",
+    "Pull with your elbows, not your hands",
+    "Don't lean back excessively; a slight backward lean is okay",
+    "Control the eccentric (return) phase"
+  ],
+  "contraindications": ["acute_lower_back_injury", "shoulder_labrum_tear"],
+  "regressions": ["banded_row", "incline_dumbbell_row"],
+  "progressions": ["one_arm_cable_row", "close_grip_pulldown"],
+  "safety_notes": "Avoid using momentum to jerk the weight. Do not lock your knees. If you feel lower back strain, reduce the weight and focus on keeping your core braced. Start with light weight to ensure proper shoulder retraction.",
+  "common_mistakes": [
+    "Rounding the shoulders at the end of the negative",
+    "Using too much body swing",
+    "Not fully retracting the shoulder blades",
+    "Pulling the handle too high (toward chest instead of abdomen)"
+  ],
+  "source": "Adapted from NSCA and gym best practices",
+  "scientific_confidence": "high"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "glute_bridge",
+  "name": "Glute Bridge",
+  "aliases": ["hip bridge", "supine hip extension"],
+  "pattern": "isolation",
+  "type": "strength",
+  "mechanics": "isolation",
+  "force": "push",
+  "primary_muscles": ["gluteus_maximus"],
+  "secondary_muscles": ["hamstrings", "core"],
+  "equipment": ["bodyweight", "dumbbell"],
+  "difficulty": "beginner",
+  "instructions": "Lie on your back with knees bent and feet flat on the floor, hip‑width apart. Place a dumbbell across your hips (optional) and hold it with both hands. Drive through your heels to lift your hips toward the ceiling until your body forms a straight line from shoulders to knees. Squeeze your glutes at the top. Lower your hips back to the floor with control.",
+  "form_cues": [
+    "Push through your heels, not your toes",
+    "Squeeze glutes hard at the top",
+    "Keep your core engaged",
+    "Don't hyperextend your lower back"
+  ],
+  "contraindications": ["none_known"],
+  "regressions": ["bodyweight_glute_bridge", "shorter_range_of_motion"],
+  "progressions": ["single_leg_glute_bridge", "barbell_hip_thrust"],
+  "safety_notes": "This is a very low‑risk exercise. If you feel lower back discomfort, you may be arching too much — reduce the range of motion. Can be done daily for glute activation.",
+  "common_mistakes": ["Hyperextending the back at the top", "Pushing through the toes", "Not squeezing the glutes", "Rushing the movement"],
+  "source": "Glute training and physiotherapy literature",
+  "scientific_confidence": "high"
+}

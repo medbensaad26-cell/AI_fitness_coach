@@ -1,0 +1,27 @@
+{
+  "id": "pallof_press",
+  "name": "Pallof Press",
+  "aliases": ["anti-rotation press", "cable pallof press"],
+  "pattern": "core",
+  "type": "stability",
+  "mechanics": "anti-rotation",
+  "force": "static",
+  "primary_muscles": ["core", "obliques", "transversus_abdominis"],
+  "secondary_muscles": ["glutes", "shoulders"],
+  "equipment": ["cable", "resistance_band"],
+  "difficulty": "beginner",
+  "instructions": "Attach a single handle to a cable machine at chest height (or anchor a band to the side). Stand sideways to the machine, feet shoulder‑width apart. Grasp the handle with both hands and bring it to your sternum. Step away until there is tension. Press the handle straight out in front of you, holding against the rotational pull. Hold for 2‑3 seconds, then return to your chest. Repeat.",
+  "form_cues": [
+    "Keep your hips and shoulders square — don't rotate",
+    "Brace your core as if about to be punched",
+    "Exhale as you press out",
+    "Control the return"
+  ],
+  "contraindications": ["none_known"],
+  "regressions": ["lighter_band", "isometric_hold_only"],
+  "progressions": ["heavier_band", "pallof_press_with_rotation"],
+  "safety_notes": "This is a low‑risk exercise suitable for all levels. Start with light resistance. If you feel lower back discomfort, reduce the weight and ensure your hips are not rotating.",
+  "common_mistakes": ["Rotating the torso", "Leaning into the resistance", "Using too much weight", "Holding breath"],
+  "source": "Functional training and core rehabilitation",
+  "scientific_confidence": "high"
+}

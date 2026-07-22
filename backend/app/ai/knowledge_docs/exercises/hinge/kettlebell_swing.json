@@ -1,0 +1,32 @@
+{
+  "id": "kettlebell_swing",
+  "name": "Kettlebell Swing",
+  "aliases": ["two-hand kettlebell swing"],
+  "pattern": "hinge",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["gluteus_maximus", "hamstrings"],
+  "secondary_muscles": ["erector_spinae", "core", "shoulders"],
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "instructions": "Place a kettlebell on the floor about one foot in front of you. Stand with feet shoulder-width apart, toes slightly out. Hinge at your hips (not a squat), grab the kettlebell handle with both hands, and tilt the kettlebell toward you. Hike the kettlebell back between your legs like a football. Then, forcefully snap your hips forward, squeezing your glutes, and let the momentum swing the kettlebell to chest height. Your arms are just ropes; the power comes from your hips. At the top, your body forms a straight line from head to heels. Let the kettlebell swing back down, hinging again at the last moment, and repeat.",
+  "form_cues": [
+    "Hip hinge, not a squat",
+    "Snap the hips, don't lift with your shoulders",
+    "Brace your core, keep a neutral spine",
+    "The bell should float up to chest height, not higher"
+  ],
+  "contraindications": ["acute_lower_back_injury", "severe_shoulder_instability", "pregnancy_third_trimester"],
+  "regressions": ["hip_hinge_with_dowel", "glute_bridge"],
+  "progressions": ["one_arm_kettlebell_swing", "kettlebell_snatch"],
+  "safety_notes": "Never lift the kettlebell with your arms—use hip drive. Avoid rounding your lower back. If you feel back pain, stop and check your hinge form. Do not hyperextend at the top; squeeze glutes but don’t lean back. Start with a light weight to master the rhythm.",
+  "common_mistakes": [
+    "Squatting instead of hinging",
+    "Using the arms to lift the bell",
+    "Rounding the lower back",
+    "Letting the kettlebell go too high (above chest)"
+  ],
+  "source": "StrongFirst and RKC methodology, adapted",
+  "scientific_confidence": "high"
+}

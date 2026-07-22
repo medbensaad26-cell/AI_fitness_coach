@@ -1,0 +1,27 @@
+{
+  "id": "ab_wheel_rollout",
+  "name": "Ab Wheel Rollout",
+  "aliases": ["ab roller", "wheel rollout"],
+  "pattern": "core",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "anti-extension",
+  "primary_muscles": ["rectus_abdominis", "transversus_abdominis"],
+  "secondary_muscles": ["lats", "shoulders", "hip_flexors"],
+  "equipment": ["ab_wheel"],
+  "difficulty": "advanced",
+  "instructions": "Kneel on the floor with the ab wheel in front of you. Grasp the handles and brace your core. Slowly roll the wheel forward, extending your body while keeping your back neutral. Go as far as you can without arching your lower back. Pull the wheel back to the starting position using your abs.",
+  "form_cues": [
+    "Keep your back flat — don't sag",
+    "Only go as far as you can control",
+    "Exhale as you roll back",
+    "Don't use your shoulders to pull — use your core"
+  ],
+  "contraindications": ["acute_lower_back_injury", "disc_herniation"],
+  "regressions": ["kneeling_plank", "ab_wheel_partial_range"],
+  "progressions": ["standing_ab_wheel_rollout", "weighted_rollout"],
+  "safety_notes": "Start with very short range of motion and build up. If you feel lower back pain, you've gone too far. This exercise places high demand on the spine; it's not suitable for those with back issues. Use a wall to stop the wheel at a safe distance.",
+  "common_mistakes": ["Overextending and arching the back", "Using the hips to pull back", "Rolling out too fast", "Not bracing the core"],
+  "source": "Advanced core training and bodyweight literature",
+  "scientific_confidence": "high"
+}

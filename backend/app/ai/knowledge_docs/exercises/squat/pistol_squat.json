@@ -1,0 +1,27 @@
+{
+  "id": "pistol_squat",
+  "name": "Pistol Squat",
+  "aliases": ["single-leg squat", "one-legged squat"],
+  "pattern": "squat",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["quadriceps", "gluteus_maximus"],
+  "secondary_muscles": ["hamstrings", "core", "calves"],
+  "equipment": ["bodyweight", "bench", "box"],
+  "difficulty": "advanced",
+  "instructions": "Stand on one leg with the other leg extended forward. Extend your arms forward for balance. Brace your core and slowly lower your body by bending the standing knee, pushing your hips back. Go as low as you can control — ideally until your thigh is below parallel. Keep the non‑working leg off the ground. Drive through your heel to stand back up.",
+  "form_cues": [
+    "Keep your heel down on the working leg",
+    "Chest up, back straight",
+    "Use your arms for balance",
+    "Lower under control, don't drop"
+  ],
+  "contraindications": ["knee_pain", "balance_disorders", "ankle_mobility_limitations"],
+  "regressions": ["assisted_pistol_squat", "box_pistol_squat"],
+  "progressions": ["weighted_pistol_squat", "shrimp_squat"],
+  "safety_notes": "Start with a box or bench behind you to control depth. Use a TRX or pole for balance until you build strength. Do not force depth; stop before pain. This exercise requires significant ankle mobility — work on ankle dorsiflexion if you struggle.",
+  "common_mistakes": ["Heel lifting off the floor", "Rounding the lower back", "Knee collapsing inward", "Losing balance and falling"],
+  "source": "Calisthenics and advanced bodyweight training literature",
+  "scientific_confidence": "high"
+}

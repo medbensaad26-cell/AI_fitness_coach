@@ -1,0 +1,27 @@
+{
+  "id": "incline_dumbbell_press",
+  "name": "Incline Dumbbell Press",
+  "aliases": ["incline chest press", "upper chest dumbbell press"],
+  "pattern": "horizontal_push",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "push",
+  "primary_muscles": ["pectoralis_major_upper", "deltoids_anterior"],
+  "secondary_muscles": ["triceps_brachii"],
+  "equipment": ["dumbbell", "bench"],
+  "difficulty": "intermediate",
+  "instructions": "Set an adjustable bench to 30–45°. Sit with dumbbells on your thighs. Kick the dumbbells up one at a time as you lie back, holding them at shoulder width above your chest. Lower the dumbbells to chest level, keeping your elbows at about 45° from your torso. Press the dumbbells back up to full arm extension, squeezing your upper chest.",
+  "form_cues": [
+    "Keep your shoulders pinned back and down",
+    "Elbows at 45°, not flared",
+    "Wrists straight",
+    "Do not bounce at the bottom"
+  ],
+  "contraindications": ["shoulder_impingement", "acute_pec_tear", "rotator_cuff_injury"],
+  "regressions": ["flat_dumbbell_press", "incline_push_up"],
+  "progressions": ["barbell_incline_press", "alternating_incline_press"],
+  "safety_notes": "Use a spotter for heavy sets. If you feel anterior shoulder pain, lower the incline angle or reduce depth. Do not lock your elbows violently.",
+  "common_mistakes": ["Flaring elbows too wide", "Bouncing the dumbbells", "Overarching the back", "Using too much weight and losing range of motion"],
+  "source": "ExRx.net, bodybuilding practices",
+  "scientific_confidence": "high"
+}

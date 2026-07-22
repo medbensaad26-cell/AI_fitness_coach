@@ -1,0 +1,27 @@
+{
+  "id": "chest_supported_row",
+  "name": "Chest-Supported Dumbbell Row",
+  "aliases": ["chest supported row", "incline bench row"],
+  "pattern": "horizontal_pull",
+  "type": "strength",
+  "mechanics": "compound",
+  "force": "pull",
+  "primary_muscles": ["latissimus_dorsi", "rhomboids", "trapezius_middle"],
+  "secondary_muscles": ["biceps_brachii", "erector_spinae"],
+  "equipment": ["dumbbell", "bench"],
+  "difficulty": "beginner",
+  "instructions": "Set an adjustable bench to about 30–45°. Lie face down on the bench with your chin off the top. Hold a dumbbell in each hand, arms hanging straight down. Pull the dumbbells to your sides by driving your elbows back, squeezing your shoulder blades together. Lower them back to the start with control.",
+  "form_cues": [
+    "Chest stays pressed against the bench",
+    "Don't shrug — pull with your back",
+    "Squeeze at the top",
+    "Control the descent"
+  ],
+  "contraindications": ["none_known"],
+  "regressions": ["lighter_dumbbells", "band_row"],
+  "progressions": ["one_arm_chest_supported_row", "heavier_dumbbells"],
+  "safety_notes": "This exercise removes almost all lower back stress, making it ideal for those with back issues. Keep your neck neutral. If you feel discomfort in the chest from the bench, place a folded towel under your chest.",
+  "common_mistakes": ["Using momentum", "Not fully squeezing at the top", "Shrugging the shoulders", "Flaring elbows too wide"],
+  "source": "Physiotherapy and strength training literature",
+  "scientific_confidence": "high"
+}

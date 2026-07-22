@@ -1,0 +1,27 @@
+{
+  "id": "face_pull",
+  "name": "Face Pull",
+  "aliases": ["cable face pull", "rope face pull"],
+  "pattern": "isolation",
+  "type": "strength",
+  "mechanics": "isolation",
+  "force": "pull",
+  "primary_muscles": ["deltoids_posterior", "rotator_cuff"],
+  "secondary_muscles": ["rhomboids", "trapezius_middle"],
+  "equipment": ["cable", "rope_attachment", "resistance_band"],
+  "difficulty": "beginner",
+  "instructions": "Attach a rope to a cable pulley set at upper‑chest height. Grasp each end of the rope with a neutral grip. Step back and assume a staggered stance. Pull the rope toward your face, separating the ends as you pull. Your elbows should flare out and back. Squeeze your shoulder blades and rear delts at the end. Return to the start with control.",
+  "form_cues": [
+    "Pull toward your forehead/eye level",
+    "Externally rotate your shoulders as you pull",
+    "Squeeze between your shoulder blades",
+    "Keep your shoulders down — don't shrug"
+  ],
+  "contraindications": ["shoulder_impingement"],
+  "regressions": ["band_face_pull", "light_weight"],
+  "progressions": ["heavier_weight", "face_pull_with_external_rotation_hold"],
+  "safety_notes": "This is one of the best exercises for shoulder health. Use light weight and focus on form. If you feel sharp anterior shoulder pain, check your arm path — you may be pulling too low or with internal rotation.",
+  "common_mistakes": ["Shrugging the shoulders", "Using too much weight and swinging", "Not externally rotating", "Pulling too low (to chest)"],
+  "source": "Physiotherapy and shoulder prehab protocols",
+  "scientific_confidence": "high"
+}
