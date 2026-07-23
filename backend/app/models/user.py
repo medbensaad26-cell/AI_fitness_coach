@@ -43,6 +43,7 @@ class UserProfile(Base):
     training_frequency: Mapped[str | None] = mapped_column(String, nullable=True)
     available_equipment: Mapped[str | None] = mapped_column(Text, nullable=True)
     limitations: Mapped[str | None] = mapped_column(Text, nullable=True)
+    available_time_minutes: Mapped[int | None] = mapped_column(Integer, nullable=True)
     created_at: Mapped[date | None] = mapped_column(Date, nullable=True)
     updated_at: Mapped[date | None] = mapped_column(Date, nullable=True)
 

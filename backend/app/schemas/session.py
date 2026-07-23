@@ -1,7 +1,7 @@
 import uuid
 from datetime import datetime
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 
 class SessionExerciseCreate(BaseModel):
@@ -22,6 +22,12 @@ class SessionCreate(BaseModel):
     fatigue_level: int | None = Field(default=None, ge=1, le=5)
     comments: str | None = None
     exercises: list[SessionExerciseCreate] = []
+
+    @model_validator(mode="after")
+    def validate_time_range(self) -> "SessionCreate":
+        if self.end_time is not None and self.end_time < self.start_time:
+            raise ValueError("end_time must be greater than or equal to start_time")
+        return self
 
 
 class SessionExerciseResponse(BaseModel):

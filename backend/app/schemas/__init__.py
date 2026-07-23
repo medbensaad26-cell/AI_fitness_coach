@@ -3,7 +3,10 @@ from app.schemas.program import (
     ProgramCreate,
     ProgramExerciseCreate,
     ProgramExerciseResponse,
+    ProgramGenerateRequest,
     ProgramResponse,
+    ProgramSuggestNextRequest,
+    ProgramSuggestNextResponse,
 )
 from app.schemas.session import (
     SessionCreate,
@@ -11,7 +14,12 @@ from app.schemas.session import (
     SessionExerciseResponse,
     SessionResponse,
 )
-from app.schemas.user import UserCreate, UserProfileResponse, UserResponse
+from app.schemas.user import (
+    UserCreate,
+    UserProfileResponse,
+    UserProfileUpdate,
+    UserResponse,
+)
 
 __all__ = [
     "LoginRequest",
@@ -19,6 +27,7 @@ __all__ = [
     "UserCreate",
     "UserResponse",
     "UserProfileResponse",
+    "UserProfileUpdate",
     "SessionCreate",
     "SessionExerciseCreate",
     "SessionExerciseResponse",
@@ -26,5 +35,8 @@ __all__ = [
     "ProgramCreate",
     "ProgramExerciseCreate",
     "ProgramExerciseResponse",
+    "ProgramGenerateRequest",
     "ProgramResponse",
+    "ProgramSuggestNextRequest",
+    "ProgramSuggestNextResponse",
 ]

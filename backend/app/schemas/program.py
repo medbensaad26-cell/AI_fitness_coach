@@ -27,6 +27,18 @@ class ProgramCreate(BaseModel):
     exercises: list[ProgramExerciseCreate] = []
 
 
+class ProgramGenerateRequest(BaseModel):
+    """Optional overrides for AI program generation. Profile comes from the DB."""
+
+    start_date: date | None = None
+
+
+class ProgramSuggestNextRequest(BaseModel):
+    """Optional overrides for suggest-next. History/profile come from the DB."""
+
+    start_date: date | None = None
+
+
 class ProgramExerciseResponse(BaseModel):
     id: uuid.UUID
     program_id: uuid.UUID
@@ -52,3 +64,9 @@ class ProgramResponse(BaseModel):
     exercises: list[ProgramExerciseResponse]
 
     model_config = {"from_attributes": True}
+
+
+class ProgramSuggestNextResponse(BaseModel):
+    program: ProgramResponse
+    rationale: str
+    adaptations: list[str]

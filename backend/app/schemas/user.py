@@ -35,6 +35,22 @@ class UserResponse(BaseModel):
     model_config = {"from_attributes": True}
 
 
+class UserProfileUpdate(BaseModel):
+    """Partial profile update; omitted fields are left unchanged."""
+
+    name: str | None = None
+    age: int | None = Field(default=None, gt=0)
+    sex: str | None = None
+    height_cm: float | None = Field(default=None, gt=0)
+    weight_kg: float | None = Field(default=None, gt=0)
+    fitness_level: str | None = None
+    primary_goal: str | None = None
+    training_frequency: str | None = None
+    available_equipment: str | None = None
+    limitations: str | None = None
+    available_time_minutes: int | None = Field(default=None, gt=0)
+
+
 class UserProfileResponse(BaseModel):
     id: uuid.UUID
     email: EmailStr
@@ -48,5 +64,6 @@ class UserProfileResponse(BaseModel):
     training_frequency: str | None
     available_equipment: str | None
     limitations: str | None
+    available_time_minutes: int | None
     created_at: date | None
     updated_at: date | None
