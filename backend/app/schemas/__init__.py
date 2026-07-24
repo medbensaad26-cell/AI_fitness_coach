@@ -1,4 +1,10 @@
 from app.schemas.auth import LoginRequest, TokenResponse
+from app.schemas.coach import (
+    CoachAfterExerciseRequest,
+    CoachEndRequest,
+    CoachMidSessionRequest,
+    CoachStartRequest,
+)
 from app.schemas.program import (
     ProgramCreate,
     ProgramExerciseCreate,
@@ -39,4 +45,8 @@ __all__ = [
     "ProgramResponse",
     "ProgramSuggestNextRequest",
     "ProgramSuggestNextResponse",
+    "CoachStartRequest",
+    "CoachAfterExerciseRequest",
+    "CoachMidSessionRequest",
+    "CoachEndRequest",
 ]

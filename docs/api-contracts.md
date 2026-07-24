@@ -1,5 +1,7 @@
 # API contracts — mobile frontend
 
+> Full Person B technical documentation: [`docs/BACKEND_API_LAYER.md`](BACKEND_API_LAYER.md)
+
 Base URL: `http://localhost:8000`  
 Interactive OpenAPI: `http://localhost:8000/docs`
 
@@ -383,6 +385,326 @@ curl "http://localhost:8000/api/me/sessions?limit=20" \
 
 ---
 
+## Workout session flow (Person C)
+
+Recommended mobile loop using coach turns + session save:
+
+1. `POST /api/coach/start` (optional `program_id`) → show `message` + `prompts`
+2. User trains; after each exercise `POST /api/coach/after-exercise` → accumulate `feedback` locally
+3. Optional: `POST /api/coach/mid-session` for free-form / voice→text questions
+4. `POST /api/coach/end` → get wrap-up `message` + `snapshot`
+5. `POST /api/sessions` with fields mapped from `snapshot` (+ optional `program_id`, `start_time` / `end_time`) → server indexes history best-effort
+6. Later: `POST /api/programs/suggest-next`
+
+Coach routes are **AI-only** (no DB write). Persistence is only via `POST /api/sessions`.
+
+---
+
+## 7. `POST /api/coach/start`
+
+### Purpose
+Opening coach turn before the first exercise. Returns a short message and structured UI prompts (readiness / pain). Does **not** create a session.
+
+### Authentication
+Required.
+
+### Request JSON (`CoachStartRequest`)
+All fields optional.
+
+```json
+{
+  "program_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "program_name": null,
+  "upcoming_exercises": []
+}
+```
+
+| Field | Type | Notes |
+|-------|------|-------|
+| `program_id` | UUID \| null | If set: must exist and belong to caller; loads program name + exercises when `upcoming_exercises` is empty |
+| `program_name` | string \| null | Overrides / used when no program loaded |
+| `upcoming_exercises` | list | Optional; each item: `exercise_name`, optional `sets`, `reps`, `notes`, `order` |
+
+### Successful response `200` (`StartSessionResult`)
+```json
+{
+  "message": "Let's get into your session. Check how ready you feel.",
+  "prompts": [
+    {
+      "id": "readiness",
+      "label": "How ready do you feel to train? (1 exhausted – 5 fully ready)",
+      "input_type": "scale",
+      "scale_min": 1,
+      "scale_max": 5,
+      "required": true
+    },
+    {
+      "id": "pain_check",
+      "label": "Any pain or unusual discomfort right now? (short note, or 'none')",
+      "input_type": "text",
+      "scale_min": null,
+      "scale_max": null,
+      "required": false
+    }
+  ]
+}
+```
+
+### Status codes
+| Code | Meaning |
+|------|---------|
+| `200` | OK |
+| `401` | Unauthorized |
+| `400` | Incomplete profile |
+| `404` | Profile or program not found |
+| `403` | Program belongs to another user |
+| `422` | Validation error |
+| `502` | AI failure |
+
+### curl
+```bash
+curl -X POST http://localhost:8000/api/coach/start \
+  -H "Authorization: Bearer YOUR_JWT" \
+  -H "Content-Type: application/json" \
+  -d "{\"program_id\": \"PROGRAM_UUID\"}"
+```
+
+---
+
+## 8. `POST /api/coach/after-exercise`
+
+### Purpose
+Coach turn after one exercise. Returns advice, a `feedback` exercise snapshot for the client to accumulate, optional `safety_flag`, and follow-up prompts. Does **not** persist rows.
+
+### Authentication
+Required.
+
+### Request JSON (`CoachAfterExerciseRequest`)
+```json
+{
+  "program_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "exercise_name": "Goblet Squat",
+  "sets_completed": 3,
+  "reps_completed": "10",
+  "weight_kg": 20,
+  "difficulty": 3,
+  "skipped": false,
+  "notes": null,
+  "user_message": null
+}
+```
+
+| Field | Type | Validation |
+|-------|------|------------|
+| `program_id` | UUID \| null | Optional; if set, used to resolve planned sets/reps for that exercise name |
+| `exercise_name` | string | Required |
+| `sets_completed` | int | `ge=0` |
+| `reps_completed` | string \| null | — |
+| `weight_kg` | number \| null | `ge=0` |
+| `difficulty` | int \| null | 1–5 |
+| `skipped` | bool | default `false` |
+| `notes` | string \| null | — |
+| `user_message` | string \| null | Free-form / voice→text |
+
+### Successful response `200` (`AfterExerciseResult`)
+```json
+{
+  "message": "Nice depth — keep bracing on the next set.",
+  "feedback": {
+    "exercise_name": "Goblet Squat",
+    "sets_completed": 3,
+    "reps_completed": "10",
+    "weight_kg": 20,
+    "difficulty": 3,
+    "skipped": false,
+    "notes": null
+  },
+  "safety_flag": false,
+  "prompts": []
+}
+```
+
+When `safety_flag` is true, `prompts` may include a `stop_or_modify` follow-up.
+
+### Status codes
+| Code | Meaning |
+|------|---------|
+| `200` | OK |
+| `401` | Unauthorized |
+| `400` | Incomplete profile |
+| `404` | Profile or program not found |
+| `403` | Program not owned |
+| `422` | Validation error |
+| `502` | AI failure |
+
+### curl
+```bash
+curl -X POST http://localhost:8000/api/coach/after-exercise \
+  -H "Authorization: Bearer YOUR_JWT" \
+  -H "Content-Type: application/json" \
+  -d "{\"exercise_name\":\"Goblet Squat\",\"sets_completed\":3,\"reps_completed\":\"10\",\"difficulty\":3}"
+```
+
+---
+
+## 9. `POST /api/coach/mid-session`
+
+### Purpose
+Free-form mid-workout question (typed or voice→text). Returns coach reply, `suggested_action` for the UI, and optional safety prompts.
+
+### Authentication
+Required.
+
+### Request JSON (`CoachMidSessionRequest` / `MidSessionInput`)
+```json
+{
+  "user_message": "Should I skip the next set? My knee feels tight.",
+  "current_exercise": {
+    "exercise_name": "Goblet Squat",
+    "sets": 3,
+    "reps": "8-10",
+    "notes": null,
+    "order": 0
+  },
+  "upcoming_exercises": [],
+  "recent_feedback": [],
+  "readiness": 3
+}
+```
+
+| Field | Type | Notes |
+|-------|------|-------|
+| `user_message` | string | Required |
+| `current_exercise` | object \| null | Optional planned exercise context |
+| `upcoming_exercises` | list | Optional |
+| `recent_feedback` | list | Optional `SessionExerciseSnapshot` rows already logged this workout |
+| `readiness` | int \| null | 1–5 |
+
+### Successful response `200` (`MidSessionResult`)
+```json
+{
+  "message": "Ease off depth and switch to a supported variation if pain sharpens.",
+  "safety_flag": true,
+  "suggested_action": "regress_exercise",
+  "prompts": [
+    {
+      "id": "confirm_action",
+      "label": "Confirm coach suggestion (regress_exercise)? Yes/No or explain.",
+      "input_type": "text",
+      "scale_min": null,
+      "scale_max": null,
+      "required": false
+    }
+  ]
+}
+```
+
+`suggested_action` is one of: `continue`, `regress_exercise`, `skip_exercise`, `rest`, `end_session`.
+
+### Status codes
+| Code | Meaning |
+|------|---------|
+| `200` | OK |
+| `401` | Unauthorized |
+| `400` | Incomplete profile |
+| `404` | Profile not found |
+| `422` | Validation error |
+| `502` | AI failure |
+
+### curl
+```bash
+curl -X POST http://localhost:8000/api/coach/mid-session \
+  -H "Authorization: Bearer YOUR_JWT" \
+  -H "Content-Type: application/json" \
+  -d "{\"user_message\":\"Should I rest?\"}"
+```
+
+---
+
+## 10. `POST /api/coach/end`
+
+### Purpose
+Closing coach turn. Returns a wrap-up `message` and a `snapshot` the client should map into `POST /api/sessions`. Does **not** persist the session itself.
+
+### Authentication
+Required.
+
+### Request JSON (`CoachEndRequest` / `EndSessionInput`)
+```json
+{
+  "overall_feeling": 4,
+  "fatigue_level": 3,
+  "comments": "Solid session",
+  "duration_minutes": 45,
+  "user_message": null,
+  "exercises": [
+    {
+      "exercise_name": "Goblet Squat",
+      "sets_completed": 3,
+      "reps_completed": "10",
+      "weight_kg": 20,
+      "difficulty": 3,
+      "skipped": false,
+      "notes": null
+    }
+  ]
+}
+```
+
+### Successful response `200` (`EndSessionResult`)
+```json
+{
+  "message": "Great work — recover well and note how you feel tomorrow.",
+  "snapshot": {
+    "overall_feeling": 4,
+    "fatigue_level": 3,
+    "comments": "Solid session",
+    "duration_minutes": 45,
+    "exercises": [
+      {
+        "exercise_name": "Goblet Squat",
+        "sets_completed": 3,
+        "reps_completed": "10",
+        "weight_kg": 20,
+        "difficulty": 3,
+        "skipped": false,
+        "notes": null
+      }
+    ]
+  },
+  "prompts": []
+}
+```
+
+### Mapping snapshot → `POST /api/sessions`
+| Snapshot field | SessionCreate field |
+|----------------|---------------------|
+| `overall_feeling` | `overall_feeling` |
+| `fatigue_level` | `fatigue_level` |
+| `comments` | `comments` |
+| `exercises` | `exercises` |
+| (client) | `start_time` / `end_time` required; `program_id` optional; `duration_minutes` computed server-side when `end_time` set |
+
+### Status codes
+| Code | Meaning |
+|------|---------|
+| `200` | OK |
+| `401` | Unauthorized |
+| `400` | Incomplete profile |
+| `404` | Profile not found |
+| `422` | Validation error |
+| `502` | AI failure |
+
+### curl
+```bash
+curl -X POST http://localhost:8000/api/coach/end \
+  -H "Authorization: Bearer YOUR_JWT" \
+  -H "Content-Type: application/json" \
+  -d "{\"overall_feeling\":4,\"fatigue_level\":3,\"exercises\":[{\"exercise_name\":\"Goblet Squat\",\"sets_completed\":3,\"difficulty\":3}]}"
+```
+
+---
+
 ## Related implemented endpoints (brief)
 
 These exist but are outside the mobile focus list above:
@@ -398,4 +720,4 @@ These exist but are outside the mobile focus list above:
 | `GET` | `/api/sessions/{session_id}` | Owner-only session detail |
 | `GET` | `/health` | Liveness (`{"status":"ok"}`) |
 
-No other program/session/profile routes are documented here beyond what exists in the routers.
+No other program/session/profile/coach routes are documented here beyond what exists in the routers.

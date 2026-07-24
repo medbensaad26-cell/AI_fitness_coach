@@ -29,8 +29,9 @@ docker-compose.yml
 
 | Document | Description |
 |----------|-------------|
-| **[docs/AI_COACHING_LAYER.md](docs/AI_COACHING_LAYER.md)** | Full technical documentation of the AI/RAG coaching layer (architecture, milestones, data model, ops) |
-| **[docs/api-contracts.md](docs/api-contracts.md)** | HTTP API contracts (auth, profile, programs, sessions) |
+| **[docs/AI_COACHING_LAYER.md](docs/AI_COACHING_LAYER.md)** | Full technical documentation of the AI/RAG coaching layer (Person A) |
+| **[docs/BACKEND_API_LAYER.md](docs/BACKEND_API_LAYER.md)** | Full technical documentation of the HTTP API / data layer (Person B) |
+| **[docs/api-contracts.md](docs/api-contracts.md)** | HTTP API contracts for the mobile client (Person C) |
 | **[backend/app/ai/CONTRACT.md](backend/app/ai/CONTRACT.md)** | Short Person A → Person B integration contract |
 
 ## Environment setup
@@ -113,5 +114,6 @@ docker compose down
 ## Current status
 
 - **Foundation:** auth, profiles, programs, sessions — in place  
-- **AI coaching layer:** implemented as Python services (see docs above)  
-- **HTTP API:** profile PATCH, program generate / suggest-next, sessions (see `docs/api-contracts.md`)  
+- **AI coaching layer (Person A):** Python services — see `docs/AI_COACHING_LAYER.md`  
+- **HTTP API layer (Person B):** complete — see `docs/BACKEND_API_LAYER.md` and `docs/api-contracts.md`  
+- **Mobile (Person C):** Flutter client can consume the documented API contracts  

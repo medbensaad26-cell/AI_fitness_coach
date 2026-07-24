@@ -377,7 +377,7 @@ These scripts exercise Groq + DB + retrieval without requiring HTTP routes.
 | Owner | Next work |
 |-------|-----------|
 | Person A (optional) | Re-run full Docker rebuild + smoke suite now that disk space is available |
-| **Person B** | Add HTTP routes that call AI functions; review/apply AI-related Alembic migrations; wire save flows to `index_session_history` |
+| **Person B** | Done — see [`docs/BACKEND_API_LAYER.md`](BACKEND_API_LAYER.md) and [`docs/api-contracts.md`](api-contracts.md) |
 | **Person C** | Flutter screens for profile, program, live session prompts; optional voice around text APIs |
 
 ---
@@ -386,7 +386,9 @@ These scripts exercise Groq + DB + retrieval without requiring HTTP routes.
 
 | Document | Audience |
 |----------|----------|
-| [`backend/app/ai/CONTRACT.md`](../backend/app/ai/CONTRACT.md) | Person B — concise call contract |
+| [`docs/BACKEND_API_LAYER.md`](BACKEND_API_LAYER.md) | Person B — full API / data technical documentation |
+| [`docs/api-contracts.md`](api-contracts.md) | Person C — HTTP endpoint contracts |
+| [`backend/app/ai/CONTRACT.md`](../backend/app/ai/CONTRACT.md) | Person B — concise AI call contract |
 | [`.env.example`](../.env.example) | Environment template |
 | [`README.md`](../README.md) | Project entry point |
 
