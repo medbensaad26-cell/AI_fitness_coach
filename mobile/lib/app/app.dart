@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'authenticated_coach_chat_host.dart';
 import 'router.dart';
 import 'theme.dart';
 
@@ -16,8 +17,13 @@ class AiFitnessCoachApp extends ConsumerWidget {
       title: 'AI Fitness Coach',
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
-      themeMode: ThemeMode.system,
+      themeMode: ThemeMode.light,
       routerConfig: router,
+      builder: (context, child) {
+        return AuthenticatedCoachChatHost(
+          child: child ?? const SizedBox.shrink(),
+        );
+      },
     );
   }
 }

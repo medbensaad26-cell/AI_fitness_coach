@@ -26,6 +26,10 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Ask your AI fitness coach questions by voice during workouts.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Ask your AI fitness coach questions by voice during workouts.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

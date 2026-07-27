@@ -6,8 +6,8 @@ import '../storage/secure_storage_service.dart';
 
 /// Shared Dio HTTP client configured with [ApiConfig.baseUrl].
 ///
-/// Does not define business endpoints. Auth header injection reads a stored
-/// token when present; no login/API contracts are assumed.
+/// Default timeouts are short for normal CRUD. AI routes override with longer
+/// receive timeouts (first generate may download embedding models).
 class ApiClient {
   ApiClient({required this.secureStorage, Dio? dio})
     : _dio =
@@ -15,8 +15,9 @@ class ApiClient {
           Dio(
             BaseOptions(
               baseUrl: ApiConfig.baseUrl,
-              connectTimeout: const Duration(seconds: 15),
-              receiveTimeout: const Duration(seconds: 15),
+              connectTimeout: const Duration(seconds: 20),
+              receiveTimeout: const Duration(seconds: 30),
+              sendTimeout: const Duration(seconds: 20),
               headers: const {
                 Headers.contentTypeHeader: Headers.jsonContentType,
                 Headers.acceptHeader: Headers.jsonContentType,
@@ -35,6 +36,9 @@ class ApiClient {
       ),
     );
   }
+
+  /// Extra-long timeouts for AI endpoints (generate / coach).
+  static const Duration aiReceiveTimeout = Duration(minutes: 3);
 
   final Dio _dio;
   final SecureStorageService secureStorage;

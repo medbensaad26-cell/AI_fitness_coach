@@ -26,6 +26,10 @@
 	<string>$(PRODUCT_COPYRIGHT)</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Ask your AI fitness coach questions by voice.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Ask your AI fitness coach questions by voice.</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
