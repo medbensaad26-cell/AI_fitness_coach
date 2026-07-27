@@ -14,8 +14,10 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+# Only ignore Python packaging dirs at repo root — not Flutter's mobile/lib/
+/lib/
+/lib64/
+!mobile/lib/
 parts/
 sdist/
 var/
