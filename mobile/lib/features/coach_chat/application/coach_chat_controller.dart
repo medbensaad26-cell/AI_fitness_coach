@@ -48,10 +48,13 @@ class CoachChatController extends Notifier<CoachChatState> {
             userMessage: text,
           );
       final replyAt = DateTime.now();
+      final replyText = result.message.trim().isEmpty
+          ? 'I got a blank reply — try asking again in a moment.'
+          : result.message;
       final coachMessage = CoachChatMessage(
         id: 'c-${replyAt.microsecondsSinceEpoch}',
         isUser: false,
-        text: result.message,
+        text: replyText,
         safetyFlag: result.safetyFlag,
         suggestedAction: result.suggestedAction,
         at: replyAt,
